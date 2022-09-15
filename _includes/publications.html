@@ -1,0 +1,47 @@
+{% if author.googlescholar %}
+You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
+
+{% include base_path %}
+
+<!-- {% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %} -->
+
+Authors listed in alphabetical order except where indicated otherwise by \*.
+
+<style>
+    .me {
+        font-weight: bold;
+    }
+</style>
+
+{% assign pubs_by_year = site.data.publications.pubs | group_by: "year" %}
+{% for group in pubs_by_year %}
+{% if group.name == "previous" %}
+<h3>Selected Previous Publications</h3>
+{% else %}
+<h3>{{ group.name }}</h3>
+{% endif %}
+<ul>
+    {% for pub in group.items %}
+    <li>
+        <em>{{ pub.title }}</em><br />
+        {% unless pub.alpha %}*{% endunless %}{{ pub.authors | join: ", " }}<br />
+        {{ pub.venue }}<br />
+        {% if pub.eprint %}
+        <a target="_blank" href="https://eprint.iacr.org/{{ pub.eprint }}"><img
+                src="https://img.shields.io/badge/-ePrint-brightgreen"></a>
+        {% endif %}
+        {% if pub.arxiv %}
+        <a target="_blank" href="https://arxiv.org/abs/{{ pub.arxiv }}"><img
+                src="https://img.shields.io/badge/-arXiv-brightgreen"></a>
+        {% endif %}
+        {% if pub.doi %}
+        <a target="_blank" href="https://doi.org/{{ pub.doi }}"><img
+                src="https://img.shields.io/static/v1?label=doi&message={{ pub.doi }}&color=lightgrey&logo={{ pub.doi_logo }}"></a>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}

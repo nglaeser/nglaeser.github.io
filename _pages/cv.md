@@ -9,22 +9,23 @@ redirect_from:
 
 {% include base_path %}
 
+<!-- <i id="email-icon" class="fa fa-envelope"></i> -->
+<a target="_blank" href="files/Glaeser_CV_research.pdf"><span class="icon">{% include file-pdf-regular.svg %}</span></a>
+
 Education
 ------
-* Ph.D. in Computer Science  
+* *Ph.D. in Computer Science*  
   University of Maryland (2019 - present)
-* M.S. in Computer Science  
+* *M.S. in Computer Science*  
   University of Maryland (2021)
-* B.S. in Mathematics  
+* *B.S. in Mathematics*  
   University of South Carolina (2019)
-* B.S.C.S. in Computer Science  
+* *B.S.C.S. in Computer Science*  
   University of South Carolina (2019)
 
 Publications
 ------
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% include publications.html %}
   
 Experience
 ------
@@ -32,10 +33,28 @@ Experience
 
 Talks
 ------
+* *Mathematically Sharing Secrets* (invited talk)  
+UMD Girls Talk Math 2021 Spring Event  
+<a target="_blank" href="https://github.com/nglaeser/gtm2021/tree/main/spring"><img src="https://img.shields.io/static/v1?label=&message=slides&color=blue&logo=github"></a>
   
-Teaching
-------
+<!-- Teaching
+------ -->
   
 Service and leadership
 ------
-* Currently signed in to 43 different slack teams
+* **External Reviewer**  
+  ACM CCS 2020, PETS 2022.1, PKC 2022, PETS 2022.4
+
+* **Founder, Organizer** (Fall 2021 - present)  
+   UMD CS Graduate Peer Mentoring Program
+
+* **Mentor**  
+  UMD CS Graduate Peer Mentoring Program (Fall 2021 - present)  
+  [Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program](https://inclusion.cs.umd.edu/programs#mentoring) (Fall 2020)
+
+* **Packet Writer** (Summer 2021 & Summer 2022)  
+  [UMD Girls Talk Math](https://gtm.math.umd.edu/virtualcamp2021.html)  
+  <a target="_blank" href="https://github.com/nglaeser/gtm2021/blob/main/packet/main.pdf"><img src="https://img.shields.io/static/v1?label=&message=packet&color=blue&logo=github"></a>
+
+* **Organizer** (Fall 2020 - Spring 2021)  
+  UMD Cryptography Reading Group
