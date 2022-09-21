@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-notitle
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -9,8 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- <i id="email-icon" class="fa fa-envelope"></i> -->
-<a target="_blank" href="files/Glaeser_CV_research.pdf"><span class="icon">{% include file-pdf-regular.svg %}</span></a>
+<style>
+.icon {
+  font-size: .75em;
+  margin-left: .5em;
+}
+</style>
+<!-- <h1 class="page__title">{{ page.title }}</h1> -->
+# CV <a target="_blank" href="{{ base_path }}/files/Glaeser_CV_research.pdf"><span class="icon">{% include file-pdf-regular.svg %}</span></a>
 
 Education
 ------
@@ -27,16 +33,17 @@ Publications
 ------
   {% include publications.html %}
   
-Experience
-------
-* Research Intern, NTT Research (Summer 2022)
-
 Talks
 ------
 * *Mathematically Sharing Secrets* (invited talk)  
 UMD Girls Talk Math 2021 Spring Event  
 <a target="_blank" href="https://github.com/nglaeser/gtm2021/tree/main/spring"><img src="https://img.shields.io/static/v1?label=&message=slides&color=blue&logo=github"></a>
   
+Experience
+------
+* **NTT Research, Inc.** (Summer 2022)  
+  Research Intern
+
 <!-- Teaching
 ------ -->
   

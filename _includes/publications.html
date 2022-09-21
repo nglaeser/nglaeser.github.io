@@ -1,5 +1,5 @@
-{% if author.googlescholar %}
-You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% if site.author.googlescholar %}
+You can also find my papers on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
 {% endif %}
 
 {% include base_path %}
@@ -8,7 +8,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
   {% include archive-single.html %}
 {% endfor %} -->
 
-Authors listed in alphabetical order except where indicated otherwise by \*.
+*Authors are listed in alphabetical order except where indicated by \*.*
 
 <style>
     .me {
@@ -39,7 +39,7 @@ Authors listed in alphabetical order except where indicated otherwise by \*.
         {% endif %}
         {% if pub.doi %}
         <a target="_blank" href="https://doi.org/{{ pub.doi }}"><img
-                src="https://img.shields.io/static/v1?label=doi&message={{ pub.doi }}&color=lightgrey&logo={{ pub.doi_logo }}"></a>
+                src="https://img.shields.io/badge/-conference version-green"></a>
         {% endif %}
     </li>
     {% endfor %}
