@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/nglaeser
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nglaeser.github.io
+  * I am nglaeser (https://keybase.io/nglaeser) on keybase.
+  * I have a public key ASCRVzkm_0BO0M_Zi28wIezjoP64lLg-yGYxkdiUz301pAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120db6cbfda697757a716459250fa5b8d8d3a647659b85c6110d1db962af2a15c8f0a",
+      "host": "keybase.io",
+      "kid": "012091573926ff404ed0cfd98b6f3021ece3a0feb894b83ec8663191d894cf7d35a40a",
+      "uid": "b3a75fd887685b7f582c86ace775b819",
+      "username": "nglaeser"
+    },
+    "merkle_root": {
+      "ctime": 1592711516,
+      "hash": "f5e823456a6b6eae3cf557b15a79e742b169389db4817f236790307e69b51c0db5516d1eee6a36c270d39252aef86ee622d6a67334fc21a1a05ad2024aa2a2c5",
+      "hash_meta": "4b67dafa4ac65e63fdef655095ab1848268fe12d32158d72dd22892d8e7108ac",
+      "seqno": 16731209
+    },
+    "service": {
+      "entropy": "zECeNEFKsRsznx5to58vX9qw",
+      "hostname": "nglaeser.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1592711591,
+  "expire_in": 504576000,
+  "prev": "7494d7092bc897c6b37efb8374bd9a8ce3f48eef982a34dc423a50ec803823a7",
+  "seqno": 36,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkVc5Jv9ATtDP2YtvMCHs46D+uJS4PshmMZHYlM99NaQKp3BheWxvYWTESpcCJMQgdJTXCSvIl8azfvuDdL2ajOP0ju+YKjTcQjpQ7IA4I6fEIC7RI/yYKeUXLuw4iVVcZtVx/B1wDfTD6o28BP9fh6s0AgHCo3NpZ8RAQ0VvtKSH2XBwvdfQLkOBosphm1PaHNEe2ECHPw92GG5biplCz5+9F7LesH7CschVrBD2zNNb9iRNYkORmY9lBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKn6j1sYh+H7zdN0sAys+bFAE6pDwhEiKLr+BvF/sAujo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nglaeser
+
+==================================================================
