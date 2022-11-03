@@ -20,14 +20,13 @@ redirect_from:
 
 Education
 ------
-* *Ph.D. in Computer Science*  
-  University of Maryland (2019 - present)
-* *M.S. in Computer Science*  
-  University of Maryland (2021)
-* *B.S. in Mathematics*  
-  University of South Carolina (2019)
-* *B.S.C.S. in Computer Science*  
-  University of South Carolina (2019)
+* *Ph.D., Computer Science* (2019 - present)  
+  University of Maryland
+* *M.S., Computer Science* (2021)  
+  University of Maryland
+* *B.S., Mathematics* (2019)   
+  *B.S.C.S., Computer Science* (2019)  
+  University of South Carolina
 
 Publications
 ------
@@ -35,6 +34,10 @@ Publications
   
 Talks
 ------
+* *Foundations of Coin Mixing Services*  
+  CESC 20222  
+  <!-- <a target="_blank" href="https://youtu.be/q9-xxy43BnM?t=5098"><img src="https://img.shields.io/badge/-video-blue"></a> -->
+  <a target="_blank" href="https://youtu.be/q9-xxy43BnM?t=5098"><img src="https://img.shields.io/static/v1?label=&message=video&color=blue&logo=youtube"></a>
 * *Mathematically Sharing Secrets* (invited talk)  
 UMD Girls Talk Math 2021 Spring Event  
 <a target="_blank" href="https://github.com/nglaeser/gtm2021/tree/main/spring"><img src="https://img.shields.io/static/v1?label=&message=slides&color=blue&logo=github"></a>
