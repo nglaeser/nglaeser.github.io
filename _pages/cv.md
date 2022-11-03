@@ -41,8 +41,8 @@ UMD Girls Talk Math 2021 Spring Event
   
 Experience
 ------
-* **NTT Research, Inc.** (Summer 2022)  
-  Research Intern
+* **NTT Research, Inc.**  
+  Research Intern (Summer 2022)
 
 <!-- Teaching
 ------ -->
@@ -52,19 +52,19 @@ Service and leadership
 * **External Reviewer**  
   ACM CCS 2020, PETS 2022.1, PKC 2022, PETS 2022.4
 
-* **Founder, Organizer** (Fall 2021 - present)  
-   UMD CS Graduate Peer Mentoring Program
+* **Founder, Organizer**  
+   UMD CS Graduate Peer Mentoring Program (Fall 2021 - present)
 
 * **Mentor**  
   UMD CS Graduate Peer Mentoring Program (Fall 2021 - present)  
   [Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program](https://inclusion.cs.umd.edu/programs#mentoring) (Fall 2020)
 
-* **Packet Writer** (Summer 2021 & Summer 2022)  
-  [UMD Girls Talk Math](https://gtm.math.umd.edu/virtualcamp2021.html)  
+* **Packet Writer**  
+  [UMD Girls Talk Math](https://gtm.math.umd.edu/virtualcamp2021.html) (Summer 2021 & Summer 2022)  
   <a target="_blank" href="https://github.com/nglaeser/gtm2021/blob/main/packet/main.pdf"><img src="https://img.shields.io/static/v1?label=&message=packet&color=blue&logo=github"></a>
 
-* **Organizer** (Fall 2020 - Spring 2021)  
-  UMD Cryptography Reading Group
+* **Organizer**  
+  UMD Cryptography Reading Group (Fall 2020 - Spring 2021)
 
 Technical Skills
 ------

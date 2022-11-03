@@ -8,7 +8,7 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
   {% include archive-single.html %}
 {% endfor %} -->
 
-*Authors are listed in alphabetical order except where indicated by \*.*
+*\* indicates alphabetical author order.*
 
 <style>
     .me {
@@ -27,8 +27,9 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
     {% for pub in group.items %}
     <li>
         <em>{{ pub.title }}</em><br />
-        {% unless pub.alpha %}*{% endunless %}{{ pub.authors | join: ", " }}<br />
-        {{ pub.venue }}<br />
+        {% if pub.alpha %}*{% endif %}{{ pub.authors | join: ", " }}<br />
+        {{ pub.venues | join: ", " }}<br />
+        <!-- <img src="https://img.shields.io/badge/-{{ pub.venue }}-lightgrey"><br /> -->
         {% if pub.eprint %}
         <a target="_blank" href="https://eprint.iacr.org/{{ pub.eprint }}"><img
                 src="https://img.shields.io/badge/-ePrint-brightgreen"></a>
