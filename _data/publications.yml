@@ -1,5 +1,25 @@
 pubs: [
   {
+    year: "Preprints",
+    title: "Efficient Registration-Based Encryption",
+    authors: [<span class="me">Noemi Glaeser</span>, Dimitris Kolonelos, Giulio Malavolta, and Ahmadreza Rahimi],
+    alpha: true,
+    venues: ,
+    eprint: "2022/1505",
+    arxiv: ,
+    doi: ,
+  },
+  {
+    year: "Preprints",
+    title: "CoVault: A Secure Analytics Platform",
+    authors: [Roberta De Viti, Isaac Sheff, <span class="me">Noemi Glaeser</span>, Baltasar Dinis, Rodrigo Rodrigues, Jonathan Katz, Bobby Bhattacharjee, Anwar Hithnawi, Deepak Garg, Peter Druschel],
+    alpha: false,
+    venues: ,
+    eprint: ,
+    arxiv: "2208.03784",
+    doi: ,
+  },
+  {
     year: "2022",
     title: "Foundations of Coin Mixing Services",
     authors: [<span class="me">Noemi Glaeser</span>, Matteo Maffei, Giulio Malavolta, Pedro Moreno-Sanchez, Erkan Tairi, Sri AravindaKrishnan Thyagarajan],
@@ -7,7 +27,7 @@ pubs: [
     venues: ["ACM CCS 2022", "CESC 2022"],
     eprint: "2022/942",
     arxiv: ,
-    # doi: "10.1145/3548606.3560637",
+    doi: "10.1145/3548606.3560637",
     doi_logo: acm,
   },
   {
