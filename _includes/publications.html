@@ -13,7 +13,14 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
 
 <style>
     .me {
+        /* font-weight: bold; */
+        text-decoration: underline;
+    }
+
+    .title {
+        /* font-style: italic; */
         font-weight: bold;
+        /* font-weight: 500; */
     }
 </style>
 
@@ -27,9 +34,11 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
 <ul>
     {% for pub in group.items %}
     <li>
-        <em>{{ pub.title }}</em><br />
+        <span class="title">{{ pub.title }}</span><br />
         {% if pub.alpha %}*{% endif %}{{ pub.authors | join: ", " }}<br />
-        {{ pub.venues | join: ", " }}<br />
+        {% if pub.venues %}
+        <em>{{ pub.venues | join: ", " }}</em><br />
+        {% endif %}
         <!-- <img src="https://img.shields.io/badge/-{{ pub.venue }}-lightgrey"><br /> -->
         {% if pub.eprint %}
         <a target="_blank" href="https://eprint.iacr.org/{{ pub.eprint }}">
