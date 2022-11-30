@@ -36,8 +36,8 @@ Talks
 ------
 * *Foundations of Coin Mixing Services*  
   CESC 20222  
-  <!-- <a target="_blank" href="https://youtu.be/q9-xxy43BnM?t=5098"><img src="https://img.shields.io/badge/-video-blue"></a> -->
-  <a target="_blank" href="https://youtu.be/q9-xxy43BnM?t=5098"><img src="https://img.shields.io/static/v1?label=&message=video&color=blue&logo=youtube"></a>
+  <!-- <a target="_blank" href="https://youtu.be/q9-xxy43BnM?t=4486"><img src="https://img.shields.io/badge/-video-blue"></a> -->
+  <a target="_blank" href="https://youtu.be/q9-xxy43BnM?t=4486"><img src="https://img.shields.io/static/v1?label=&message=video&color=blue&logo=youtube"></a>
 * *Mathematically Sharing Secrets* (invited talk)  
 UMD Girls Talk Math 2021 Spring Event  
 <a target="_blank" href="https://github.com/nglaeser/gtm2021/tree/main/spring"><img src="https://img.shields.io/static/v1?label=&message=slides&color=blue&logo=github"></a>
