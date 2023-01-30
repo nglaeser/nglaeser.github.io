@@ -20,12 +20,13 @@ redirect_from:
 
 Education
 ------
-* *Ph.D., Computer Science* (2019 - present)  
+* **Ph.D., Computer Science** (2019 - present)  
+  University of Maryland &  
+  Max Planck Institute for Security and Privacy (MPI-SP)
+* **M.S., Computer Science** (2021)  
   University of Maryland
-* *M.S., Computer Science* (2021)  
-  University of Maryland
-* *B.S., Mathematics* (2019)   
-  *B.S.C.S., Computer Science* (2019)  
+* **B.S., Mathematics** (2019)   
+  **B.S.C.S., Computer Science** (2019)  
   University of South Carolina
 
 Publications
@@ -44,8 +45,10 @@ UMD Girls Talk Math 2021 Spring Event
   
 Experience
 ------
+* **a16z Crypto**  
+  Research Intern (summer 2023)  
 * **NTT Research, Inc.**  
-  Research Intern (Summer 2022)
+  Research Intern (summer 2022)
 
 <!-- Teaching
 ------ -->
@@ -53,7 +56,10 @@ Experience
 Service and leadership
 ------
 * **External Reviewer**  
-  ACM CCS 2020, PETS 2022.1, PKC 2022, PETS 2022.4
+  ACM CCS (2023, 2020), (PETS 2023.3, 2022.4, 2022.1), PKC (2022)
+  
+* **Program Committee**  
+  NDSS'23 Student Support Committee
 
 * **Founder, Organizer**  
    UMD CS Graduate Peer Mentoring Program (Fall 2021 - present)
