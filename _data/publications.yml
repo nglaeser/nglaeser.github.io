@@ -1,6 +1,16 @@
 pubs: [
   {
     year: "Preprints",
+    title: "Universally Composable NIZKs: Circuit-Succinct, Non-Malleable and CRS-Updatable",
+    authors: [Behzad Abdolmaleki, <span class="me">Noemi Glaeser</span>, Sebastian Ramacher, and Daniel Slamanig],
+    alpha: true,
+    venues: ,
+    eprint: "2023/097",
+    arxiv: ,
+    doi: ,
+  },
+  {
+    year: "Preprints",
     title: "Efficient Registration-Based Encryption",
     authors: [<span class="me">Noemi Glaeser</span>, Dimitris Kolonelos, Giulio Malavolta, and Ahmadreza Rahimi],
     alpha: true,
