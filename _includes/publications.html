@@ -14,7 +14,8 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
 <style>
     .me {
         /* font-weight: bold; */
-        text-decoration: underline;
+        font-style: italic;
+        /* text-decoration: underline; */
     }
 
     .title {
@@ -37,22 +38,19 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
         <span class="title">{{ pub.title }}</span><br />
         {% if pub.alpha %}*{% endif %}{{ pub.authors | join: ", " }}<br />
         {% if pub.venues %}
-        <em>{{ pub.venues | join: ", " }}</em><br />
+        <span class="title">{{ pub.venues | join: ", " }}</span><br />
         {% endif %}
-        <!-- <img src="https://img.shields.io/badge/-{{ pub.venue }}-lightgrey"><br /> -->
         {% if pub.eprint %}
-        <a target="_blank" href="https://eprint.iacr.org/{{ pub.eprint }}">
-            <img src="https://img.shields.io/badge/-ePrint-brightgreen"></a>
-        <!-- <img
-                src="https://img.shields.io/static/v1?label=&message=eprint&color=brightgreen&logo=openaccess&logoColor=white"></a> -->
+        [<a class="artifact-link" target="_blank" href="https://eprint.iacr.org/{{ pub.eprint }}">eprint</a>]
         {% endif %}
         {% if pub.arxiv %}
-        <a target="_blank" href="https://arxiv.org/abs/{{ pub.arxiv }}"><img
-                src="https://img.shields.io/badge/-arXiv-brightgreen"></a>
+        [<a class="artifact-link" target="_blank" href="https://arxiv.org/abs/{{ pub.arxiv }}">arxiv</a>]
         {% endif %}
         {% if pub.doi %}
-        <a target="_blank" href="https://doi.org/{{ pub.doi }}"><img
-                src="https://img.shields.io/badge/-conference version-green"></a>
+        [<a class="artifact-link" target="_blank" href="https://doi.org/{{ pub.doi }}">doi</a>]
+        {% endif %}
+        {% if pub.github %}
+        [<a class="artifact-link" target="_blank" href="https://github.com/{{ pub.github }}">code</a>]
         {% endif %}
     </li>
     {% endfor %}

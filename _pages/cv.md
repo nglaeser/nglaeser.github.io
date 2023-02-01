@@ -10,13 +10,22 @@ redirect_from:
 {% include base_path %}
 
 <style>
-.icon {
-  font-size: .75em;
-  margin-left: .5em;
+.small {
+  font-size: .65em;
+  font-weight: normal;
+  margin-left: .3em;
+}
+h1 {
+  display: flex;
+  align-items: center;
+}
+.award {
+  color: orange;
+  font-weight: bold;
 }
 </style>
-<!-- <h1 class="page__title">{{ page.title }}</h1> -->
-# CV <a target="_blank" href="{{ base_path }}/files/Glaeser_CV_research.pdf"><span class="icon">{% include file-pdf-regular.svg %}</span></a>
+
+# CV <span class="small">[<a class="artifact-link" target="_blank" href="{{ base_path }}/files/Glaeser_CV_research.pdf">pdf</a>]</span>
 
 Education
 ------
@@ -37,11 +46,10 @@ Talks
 ------
 * *Foundations of Coin Mixing Services*  
   CESC 20222  
-  <!-- <a target="_blank" href="https://youtu.be/q9-xxy43BnM?t=4486"><img src="https://img.shields.io/badge/-video-blue"></a> -->
-  <a target="_blank" href="https://youtu.be/q9-xxy43BnM?t=4486"><img src="https://img.shields.io/static/v1?label=&message=video&color=blue&logo=youtube"></a>
-* *Mathematically Sharing Secrets* (invited talk)  
-UMD Girls Talk Math 2021 Spring Event  
-<a target="_blank" href="https://github.com/nglaeser/gtm2021/tree/main/spring"><img src="https://img.shields.io/static/v1?label=&message=slides&color=blue&logo=github"></a>
+  [<a class="artifact-link" target="_blank" href="https://youtu.be/q9-xxy43BnM?t=4486">video</a>]
+* *Mathematically Sharing Secrets* <span class="award">[invited talk]</span>  
+  UMD Girls Talk Math 2021 Spring Event  
+  [<a class="artifact-link" target="_blank" href="https://github.com/nglaeser/gtm2021/tree/main/spring">slides</a>]
   
 Experience
 ------
@@ -53,7 +61,7 @@ Experience
 <!-- Teaching
 ------ -->
   
-Service and leadership
+Service and Leadership
 ------
 * **External Reviewer**  
   ACM CCS (2023, 2020), (PETS 2023.3, 2022.4, 2022.1), PKC (2022)
@@ -69,12 +77,12 @@ Service and leadership
   [Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program](https://inclusion.cs.umd.edu/programs#mentoring) (Fall 2020)
 
 * **Packet Writer**  
-  [UMD Girls Talk Math](https://gtm.math.umd.edu/virtualcamp2021.html) (Summer 2021 & Summer 2022)  
-  <a target="_blank" href="https://github.com/nglaeser/gtm2021/blob/main/packet/main.pdf"><img src="https://img.shields.io/static/v1?label=&message=packet&color=blue&logo=github"></a>
+  [UMD Girls Talk Math](https://gtm.math.umd.edu/virtualcamp2021.html) (Summer 2021 & Summer 2022)
+  [<a class="artifact-link" target="_blank" href="https://github.com/nglaeser/gtm2021/blob/main/packet/main.pdf">pdf</a>]
 
 * **Organizer**  
   UMD Cryptography Reading Group (Fall 2020 - Spring 2021)
 
 Technical Skills
 ------
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nglaeser&layout=compact&langs_count=10&hide=jupyter notebook,less&exclude_repo=CybersecSite,Notes)](https://github.com/nglaeser)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nglaeser&layout=compact&langs_count=10&hide=jupyter notebook,less,ruby,cmake,c&exclude_repo=CybersecSite,Notes)](https://github.com/nglaeser)

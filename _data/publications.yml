@@ -8,6 +8,7 @@ pubs: [
     eprint: "2023/097",
     arxiv: ,
     doi: ,
+    github: "nglaeser/sonic-ucse",
   },
   {
     year: "Preprints",
@@ -18,6 +19,7 @@ pubs: [
     eprint: "2022/1505",
     arxiv: ,
     doi: ,
+    github: "ahmadrezarahimi/efficientRBE",
   },
   {
     year: "Preprints",
@@ -50,6 +52,7 @@ pubs: [
     arxiv: "2001.06551",
     doi: "10.1016/j.ascom.2020.100425",
     doi_logo: elsevier,
+    github: "SSantosLab/gw_workflow",
   },
   {
     year: "previous",
@@ -61,5 +64,6 @@ pubs: [
     arxiv: ,
     doi: "10.1109/SARNOF.2016.7846728",
     doi_logo: ieee,
+    github: "ravel-net/REU-access-control",
   },
 ]
