@@ -38,7 +38,7 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
         <span class="title">{{ pub.title }}</span><br />
         {% if pub.alpha %}*{% endif %}{{ pub.authors | join: ", " }}<br />
         {% if pub.venues %}
-        <span class="title">{{ pub.venues | join: ", " }}</span><br />
+        <span class="title">{{ pub.venues | join: "; " }}</span><br />
         {% endif %}
         {% if pub.eprint %}
         [<a class="artifact-link" target="_blank" href="https://eprint.iacr.org/{{ pub.eprint }}">eprint</a>]
@@ -48,6 +48,9 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
         {% endif %}
         {% if pub.doi %}
         [<a class="artifact-link" target="_blank" href="https://doi.org/{{ pub.doi }}">doi</a>]
+        {% endif %}
+        {% if pub.talk %}
+        [<a class="artifact-link" target="_blank" href="{{ pub.talk }}">talk</a>]
         {% endif %}
         {% if pub.github %}
         [<a class="artifact-link" target="_blank" href="https://github.com/{{ pub.github }}">code</a>]

@@ -15,8 +15,8 @@ Hello! I'm a PhD student in Computer Science at the [University of Maryland](htt
 News
 ---
 - **2023-01-30:** I'll be a research intern at [a16z crypto](https://a16zcrypto.com/) for summer 2023.
-- **2022-12-20:** I will be spending the spring 2023 semester at MPI-SP in Bochum, Germany.
+- **2022-12-20:** I will be spending the spring 2023 semester at [MPI-SP](https://www.mpi-sp.org/) in Bochum, Germany.
 <!-- -->
-- **2022-09-07:** [Foundations of Coin Mixing Services](https://eprint.iacr.org/2022/942) was accepted to the [Crypto Economics Security Conference](https://cesc.io/) in Berkeley, CA on October 31-November 1, 2022  
+- **2022-09-07:** [Foundations of Coin Mixing Services](./publications) was accepted to the [Crypto Economics Security Conference](https://cesc.io/) in Berkeley, CA on October 31-November 1, 2022  
 <!-- -->
-- **2022-07-15:** I will be presenting our paper [Foundations of Coin Mixing Services](https://eprint.iacr.org/2022/942) at [ACM CCS 2022](https://www.sigsac.org/ccs/CCS2022/) in Los Angeles, CA on November 7-11, 2022  
+- **2022-07-15:** I will be presenting our paper [Foundations of Coin Mixing Services](./publications) at [ACM CCS 2022](https://www.sigsac.org/ccs/CCS2022/) in Los Angeles, CA on November 7-11, 2022  

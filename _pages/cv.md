@@ -42,18 +42,15 @@ Publications
 ------
   {% include publications.html %}
   
-Talks
+Selected Talks
 ------
-* *Foundations of Coin Mixing Services*  
-  CESC 20222  
-  [<a class="artifact-link" target="_blank" href="https://youtu.be/q9-xxy43BnM?t=4486">video</a>]
 * *Mathematically Sharing Secrets* <span class="award">[invited talk]</span>  
   UMD Girls Talk Math 2021 Spring Event  
   [<a class="artifact-link" target="_blank" href="https://github.com/nglaeser/gtm2021/tree/main/spring">slides</a>]
   
 Experience
 ------
-* **a16z Crypto**  
+* **a16z crypto**  
   Research Intern (summer 2023)  
 * **NTT Research, Inc.**  
   Research Intern (summer 2022)
@@ -67,17 +64,17 @@ Service and Leadership
   Crypto (2023), ACM CCS (2023, 2020), PETS (2023.3, 2022.4, 2022.1), PKC (2022)
   
 * **Program Committee**  
-  NDSS'23 Student Support Committee
+  IEEE S&P Poster PC (2023), NDSS Student Support Committee (2023)
 
 * **Founder, Organizer**  
    UMD CS Graduate Peer Mentoring Program (Fall 2021 - present)
 
 * **Mentor**  
   UMD CS Graduate Peer Mentoring Program (Fall 2021 - present)  
-  [Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program](https://inclusion.cs.umd.edu/programs#mentoring) (Fall 2020)
+  Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://inclusion.cs.umd.edu/programs#mentoring">?</a>]</sup> (Fall 2020)
 
 * **Packet Writer**  
-  [UMD Girls Talk Math](https://gtm.math.umd.edu/virtualcamp2021.html) (Summer 2021 & Summer 2022)
+  UMD Girls Talk Math<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gtm.math.umd.edu/virtualcamp2021.html">?</a>]</sup> (Summer 2021 & Summer 2022)
   [<a class="artifact-link" target="_blank" href="https://github.com/nglaeser/gtm2021/blob/main/packet/main.pdf">pdf</a>]
 
 * **Organizer**  
