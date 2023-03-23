@@ -44,6 +44,8 @@ Publications
   
 Selected Talks
 ------
+* *Foundations of Coin Mixing Services* <span class="award">[invited talk]</span>  
+  American Mathematical Society (AMS) Spring 2023 Eastern Sectional Meeting, Special Session on Cybersecurity and Cryptography
 * *Mathematically Sharing Secrets* <span class="award">[invited talk]</span>  
   UMD Girls Talk Math 2021 Spring Event  
   [<a class="artifact-link" target="_blank" href="https://github.com/nglaeser/gtm2021/tree/main/spring">slides</a>]
@@ -51,9 +53,9 @@ Selected Talks
 Experience
 ------
 * **a16z crypto**  
-  Research Intern (summer 2023)  
+  Research Intern (Summer 2023)  
 * **NTT Research, Inc.**  
-  Research Intern (summer 2022)
+  Research Intern (Summer 2022)
 
 <!-- Teaching
 ------ -->
@@ -61,7 +63,7 @@ Experience
 Service and Leadership
 ------
 * **External Reviewer**  
-  Crypto (2023), ACM CCS (2023, 2020), PETS (2023.3, 2022.4, 2022.1), PKC (2022)
+  IACR Crypto (2023), ACM CCS (2023, 2020), PETS (2023.3, 2022.4, 2022.1), PKC (2022)
   
 * **Program Committee**  
   IEEE S&P Poster PC (2023), NDSS Student Support Committee (2023)
