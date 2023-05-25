@@ -83,8 +83,8 @@ author:
   name             : "Noemi Glaeser"
   avatar           : "profile.png"
   bio              : "Cryptography researcher at UMD and MPI-SP"
-  # location         : "College Park, MD"
-  location         : "Bochum, Germany"
+  location         : "College Park, MD, USA"
+  # location         : "Bochum, Germany"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=4gRwF6QAAAAJ"
   dblp             : "https://dblp.org/pid/195/0134.html"
