@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm a PhD student in Computer Science at the [University of Maryland](https://www.cs.umd.edu/people/nglaeser) (with [Jonathan Katz](https://www.cs.umd.edu/~jkatz/)) and the [Max Planck Institute for Security & Privacy](https://www.mpi-sp.org/person/116161/14251) (with [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/)) via the [Maryland-Max Planck Program](https://www.cs.umd.edu/maryland-max-planck). I am a recipient of the NSF Graduate Research Fellowship. I also have been/will be a research intern at [NTT Research](https://ntt-research.com/cis/) and [a16z crypto](https://a16zcrypto.com/research/).
+Hello! I'm a PhD student in Computer Science at the [University of Maryland](https://www.cs.umd.edu/people/nglaeser) and the [Max Planck Institute for Security & Privacy](https://www.mpi-sp.org/person/116161/14251) via the [Maryland-Max Planck Program](https://www.cs.umd.edu/maryland-max-planck), jointly advised by [Jonathan Katz](https://www.cs.umd.edu/~jkatz/) and [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/). I am a recipient of the NSF Graduate Research Fellowship. I am currently a research intern at [a16z crypto](https://a16zcrypto.com/research/), and was previously a research intern at [NTT Research](https://ntt-research.com/cis/).
 
 <span style="color: gray;">*How to pronounce my name: No-Amy Glay-zer*</span>
 

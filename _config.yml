@@ -105,6 +105,9 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "nglaeser"
+  mastodon         :
+    username       : "cryptonoemi"
+    server         : "ioc.exchange"
   orcid            : "https://orcid.org/0000-0002-6464-2534"
   pinterest        :
   soundcloud       :
