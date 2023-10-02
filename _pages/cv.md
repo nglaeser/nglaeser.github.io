@@ -62,12 +62,12 @@ Experience
   
 Service and Leadership
 ------
+* **Program Committee**  
+  FC (2024), IEEE S&P Poster PC (2023), NDSS Student Support Committee (2023)
+
 * **External Reviewer**  
   IACR Crypto (2023), ACM CCS (2023, 2020), PETS (2023.3, 2022.4, 2022.1), PKC (2022)
   
-* **Program Committee**  
-  IEEE S&P Poster PC (2023), NDSS Student Support Committee (2023)
-
 * **Founder, Organizer**  
    UMD CS Graduate Peer Mentoring Program (Fall 2021 - present)
 
