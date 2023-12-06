@@ -16,7 +16,8 @@ I am broadly interested in applied cryptography. Last summer I was a research in
 
 News
 ---
-- **2023-03-17:** Our paper [Efficient Registration-Based Encryption](./publications.md) will appear at [ACM CCS 2023](https://www.sigsac.org/ccs/CCS2023/).
+- **2023-12-06:** [Naysayer Proofs](./publications#Short paper: Naysayer proofs) was accepted to [FC 2024](https://fc24.ifca.ai/)!
+- **2023-03-17:** Our paper [Efficient Registration-Based Encryption](./publications.md#Efficient Registration-Based Encryption) will appear at [ACM CCS 2023](https://www.sigsac.org/ccs/CCS2023/).
 <!-- - **2023-01-30:** I'll be a research intern at [a16z crypto](https://a16zcrypto.com/research/) for summer 2023. -->
 <!-- - **2022-12-20:** I will be spending the spring 2023 semester at [MPI-SP](https://www.mpi-sp.org/) in Bochum, Germany. -->
 <!-- - **2022-09-07:** [Foundations of Coin Mixing Services](./publications) was accepted to the [Crypto Economics Security Conference](https://cesc.io/) in Berkeley, CA on October 31-November 1, 2022. -->

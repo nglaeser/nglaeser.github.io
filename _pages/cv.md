@@ -42,11 +42,13 @@ Publications
 ------
   {% include publications.html %}
   
-Selected Talks
+Invited Talks
 ------
-* *Foundations of Coin Mixing Services* <span class="award">[invited talk]</span>  
+* *Foundations of Coin Mixing Services* 
+<!-- <span class="award">[invited talk]</span>   -->
   American Mathematical Society (AMS) Spring 2023 Eastern Sectional Meeting, Special Session on Cybersecurity and Cryptography
-* *Mathematically Sharing Secrets* <span class="award">[invited talk]</span>  
+* *Mathematically Sharing Secrets* 
+<!-- <span class="award">[invited talk]</span>   -->
   UMD Girls Talk Math 2021 Spring Event  
   [<a class="artifact-link" target="_blank" href="https://github.com/nglaeser/gtm2021/tree/main/spring">slides</a>]
   
@@ -63,7 +65,7 @@ Experience
 Service and Leadership
 ------
 * **Program Committee**  
-  FC (2024), IEEE S&P Poster PC (2023), NDSS Student Support Committee (2023)
+  Financial Crypto (2024), IEEE S&P Poster PC (2023), NDSS Student Support Committee (2023)
 
 * **External Reviewer**  
   IACR Crypto (2023), ACM CCS (2023, 2020), PETS (2023.3, 2022.4, 2022.1), PKC (2022)

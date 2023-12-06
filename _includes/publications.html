@@ -30,11 +30,11 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
 {% if group.name == "previous" %}
 <h3>Selected Previous Publications</h3>
 {% else %}
-<h3>{{ group.name }}</h3>
+<h3 id="{{group.name}}">{{ group.name }}</h3>
 {% endif %}
 <ul>
     {% for pub in group.items %}
-    <li>
+    <li id="{{ pub.title }}">
         <span class="title">{{ pub.title }}</span><br />
         {% if pub.alpha %}*{% endif %}{{ pub.authors | join: ", " }}<br />
         {% if pub.venues %}

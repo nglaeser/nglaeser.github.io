@@ -11,11 +11,11 @@ pubs: [
     github: "a16z/cicada",
   },
   {
-    year: "Preprints",
+    year: "2024",
     title: "Short paper: Naysayer proofs",
     authors: [István András Seres, <span class="me">Noemi Glaeser</span>, and Joseph Bonneau],
     alpha: false,
-    venues: ,
+    venues: ["FC 2024"],
     eprint: "2023/1472",
     arxiv: ,
     doi: ,
