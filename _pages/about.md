@@ -8,15 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm a PhD student in Computer Science at the [University of Maryland](https://www.cs.umd.edu/people/nglaeser) and the [Max Planck Institute for Security & Privacy](https://www.mpi-sp.org/person/116161/14251) via the [Maryland-Max Planck Program](https://www.cs.umd.edu/maryland-max-planck), jointly advised by [Jonathan Katz](https://www.cs.umd.edu/~jkatz/) and [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/). 
+Hello! I'm a 5th-year PhD student in Computer Science at the [University of Maryland](https://www.cs.umd.edu/people/nglaeser) and the [Max Planck Institute for Security & Privacy](https://www.mpi-sp.org/person/116161/14251) via the [Maryland-Max Planck Program](https://www.cs.umd.edu/maryland-max-planck), jointly advised by [Jonathan Katz](https://www.cs.umd.edu/~jkatz/) and [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/). 
 
-I am broadly interested in applied cryptography. Last summer I was a research intern at [a16z crypto](https://a16zcrypto.com/research/), and previously at [NTT Research](https://ntt-research.com/cis/). I am also a recipient of the NSF Graduate Research Fellowship. 
+I am broadly interested in applied cryptography, especially in the context of blockchains. Last summer I was a research intern at [a16z crypto](https://a16zcrypto.com/research/), and previously at [NTT Research](https://ntt-research.com/cis/). I am also a recipient of the NSF Graduate Research Fellowship. 
 
 <span style="color: gray;">*How to pronounce my name: No-Amy Glay-zer*</span>
 
 News
 ---
-- **2023-12-06:** [Naysayer Proofs](./publications#Short paper: Naysayer proofs) was accepted to [FC 2024](https://fc24.ifca.ai/)!
+- **2024-02-07:** I'll be at [FC 2024](https://fc24.ifca.ai/) on March 4-8; hope to see you there!
+- **2023-12-06:** [Naysayer Proofs](./publications#Short paper: Naysayer proofs) was accepted to [FC 2024](https://fc24.ifca.ai/).
 - **2023-03-17:** Our paper [Efficient Registration-Based Encryption](./publications.md#Efficient Registration-Based Encryption) will appear at [ACM CCS 2023](https://www.sigsac.org/ccs/CCS2023/).
 <!-- - **2023-01-30:** I'll be a research intern at [a16z crypto](https://a16zcrypto.com/research/) for summer 2023. -->
 <!-- - **2022-12-20:** I will be spending the spring 2023 semester at [MPI-SP](https://www.mpi-sp.org/) in Bochum, Germany. -->
