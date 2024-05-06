@@ -16,9 +16,11 @@ I am broadly interested in applied cryptography, especially in the context of bl
 
 News
 ---
-- **2024-02-07:** I'll be at [FC 2024](https://fc24.ifca.ai/) on March 4-8; hope to see you there!
+<!-- - **2024-05-13:** I'll be presenting [Naysayer proofs](./publications.md#Short paper: Naysayer proofs) and [Cicada](./publications.md#Cicada: A framework for private non-interactive on-chain auctions and voting) on May 25 at the Eurocrypt [Workshop on Cryptographic Tools for Blockchain](https://www.ctb-workshop.org/). -->
+- **2024-05-06:** I'll be at [ETHBratislava](https://www.ethbratislava.com/) on May 10-11 to talk about [Naysayer proofs](./publications.md#Short paper: Naysayer proofs) and [Cicada](./publications.md#Cicada: A framework for private non-interactive on-chain auctions and voting)!
+<!-- - **2024-02-07:** I'll be at [FC 2024](https://fc24.ifca.ai/) on March 4-8; hope to see you there! -->
 - **2023-12-06:** [Naysayer Proofs](./publications#Short paper: Naysayer proofs) was accepted to [FC 2024](https://fc24.ifca.ai/).
-- **2023-03-17:** Our paper [Efficient Registration-Based Encryption](./publications.md#Efficient Registration-Based Encryption) will appear at [ACM CCS 2023](https://www.sigsac.org/ccs/CCS2023/).
+<!-- - **2023-03-17:** Our paper [Efficient Registration-Based Encryption](./publications.md#Efficient Registration-Based Encryption) will appear at [ACM CCS 2023](https://www.sigsac.org/ccs/CCS2023/). -->
 <!-- - **2023-01-30:** I'll be a research intern at [a16z crypto](https://a16zcrypto.com/research/) for summer 2023. -->
 <!-- - **2022-12-20:** I will be spending the spring 2023 semester at [MPI-SP](https://www.mpi-sp.org/) in Bochum, Germany. -->
 <!-- - **2022-09-07:** [Foundations of Coin Mixing Services](./publications) was accepted to the [Crypto Economics Security Conference](https://cesc.io/) in Berkeley, CA on October 31-November 1, 2022. -->
