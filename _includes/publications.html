@@ -55,6 +55,9 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
         {% if pub.github %}
         [<a class="artifact-link" target="_blank" href="https://github.com/{{ pub.github }}">code</a>]
         {% endif %}
+        {% if pub.blog %}
+        [<a class="artifact-link" target="_blank" href="{{ base_path }}/{{ pub.blog }}">blog</a>]
+        {% endif %}
     </li>
     {% endfor %}
 </ul>

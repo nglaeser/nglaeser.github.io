@@ -65,8 +65,9 @@ Experience
 Service and Leadership
 ------
 * **Program Committee**  
+  <a target="_blank" href="https://isc24.cs.gmu.edu/">ISC</a> (2024), 
   <a target="_blank" href="http://ifca.ai/">Financial Crypto</a> (2024), 
-  <a target="_blank" href="https://sp2023.ieee-security.org/cfposters.html">IEEE S&P Poster PC</a> (2023), 
+  <a target="_blank" href="https://sp2024.ieee-security.org/cfposters.html">IEEE S&P Poster PC</a> (2023, 2024), 
   <a target="_blank" href="https://www.ndss-symposium.org/ndss2023/attend/student-support/">NDSS Student Support Committee</a> (2023)
 
 * **External Reviewer**  

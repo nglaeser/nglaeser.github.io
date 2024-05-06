@@ -11,3 +11,6 @@ main:
 
   - title: "Resources"
     url: /resources/
+
+  - title: "Posts"
+    url: /year-archive/
