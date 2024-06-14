@@ -29,13 +29,12 @@ h1 {
 
 Education
 ------
-* **Ph.D., Computer Science** (2019 - present)  
+* **Ph.D., Computer Science** (expected Dec 2024)  
   University of Maryland &  
   Max Planck Institute for Security and Privacy (MPI-SP)
 * **M.S., Computer Science** (2021)  
   University of Maryland
-* **B.S., Mathematics** (2019)   
-  **B.S.C.S., Computer Science** (2019)  
+* **B.S., Mathematics**, **B.S.C.S., Computer Science** (2019)  
   University of South Carolina
 
 Publications
@@ -67,10 +66,12 @@ Service and Leadership
 * **Program Committee**  
   <a target="_blank" href="https://isc24.cs.gmu.edu/">ISC</a> (2024), 
   <a target="_blank" href="http://ifca.ai/">Financial Crypto</a> (2024), 
-  <a target="_blank" href="https://sp2024.ieee-security.org/cfposters.html">IEEE S&P Poster PC</a> (2023, 2024), 
+  <a target="_blank" href="https://sp2024.ieee-security.org/cfposters.html">IEEE S&P Poster PC</a> (2023), 
   <a target="_blank" href="https://www.ndss-symposium.org/ndss2023/attend/student-support/">NDSS Student Support Committee</a> (2023)
 
 * **External Reviewer**  
+  <a target="_blank" href="https://2024.cansconference.org/">CANS</a> (2024), 
+  <a target="_blank" href="https://www.acisp24.com/">ACISP</a> (2024), 
   <a target="_blank" href="https://sp2024.ieee-security.org/past.html">IEEE S&P</a> (2024), 
   <a target="_blank" href="https://crypto.iacr.org/">IACR Crypto</a> (2023), 
   <a target="_blank" href="https://www.sigsac.org/ccs.html">ACM CCS</a> (2023, 2020), 
