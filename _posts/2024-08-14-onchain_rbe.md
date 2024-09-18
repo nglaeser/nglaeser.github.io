@@ -36,13 +36,13 @@ This design space is complex, and comparing these schemes requires taking many d
 
 I'll discuss at the end how each of these additional considerations could affect our three potential solutions.
 
-![tradeoffs]()
+![tradeoffs](../../files/PKI_IBE_RBE%20tradeoffs.svg)
 
 # Public Key Directory
 
 **Summary**: Anyone can add an (id, pk) entry to an on-chain table (the directory) by calling the smart contract, provided the ID hasn't been claimed yet.
 
-![pkd]()
+![pkd](../../files/on-chain%20PKI.svg)
 
 A decentralized PKI is essentially a smart contract that maintains a directory of identities and their corresponding public keys. For example, the [Ethereum Name Service (ENS) Registry](https://docs.ens.domains/) maintains a mapping of domain names ("identities") and their corresponding metadata, including the addresses they resolve to (from whose transactions a public key can be derived). A decentralized PKI would provide even simpler functionality: the list maintained by the contract would store only the public key corresponding to each ID. 
 
@@ -75,7 +75,7 @@ On the positive side:
 
 **Summary**: A user's identity is their public key. A trusted third party or parties is needed to issue keys and hold a master secret (trapdoor) for the lifetime of the system.
 
-![ibe]()
+![ibe](../../files/on-chain%20IBE.svg)
 
 In IBE, a user doesn't generate their own key-pair but instead registers with a trusted key generator. The key generator has a "master" key-pair (msk, mpk in the figure). Given a user's ID, the key generator uses the master secret key msk and the ID to compute a secret key for the user. That secret key has to be communicated to the user over a secure channel (which can be established with a [key exchange protocol](https://en.wikipedia.org/wiki/Key_exchange)). 
 
@@ -97,11 +97,13 @@ This trust can instead be distributed among a quorum of key generators, so that 
 | Arbitrary IDs
 
 If users are OK with this trust assumption, (threshold) IBE comes with a lot of benefits:
-- **Constant/minimal on-chain storage.** Only the master public key (a single group element) needs to be stored on-chain. This is much less than the storage required by an on-chain public key directory. For the Boneh-Franklin IBE over the BN254 curve, this means adding 64 bytes of persistent on-chain storage once during the setup phase, requiring the service to spend only 40K gas.
+- **Constant/minimal on-chain storage.** Only the master public key (a single group element) needs to be stored on-chain. This is much less than the storage required by an on-chain public key directory. For the Boneh-Franklin IBE over the BN254 curve[^1], this means adding 64 bytes of persistent on-chain storage once during the setup phase, requiring the service to spend only 40K gas.
 - **Non-interactive encryption.** A sender only needs the master public key (which it downloads once at the start) and the recipient's ID to encrypt a message. This is in contrast to the public key directory, where it would need to retrieve a key for every new user it wants to communicate with.
 - **Non-interactive decryption.** Again, users use their locally-stored secret keys to decrypt messages.
 - **Sender-anonymous.** The sender doesn't need to retrieve any per-recipient information from the chain. By comparison, in the case of a public-key registry, the sender has to interact with the contract in a way that depends on the recipient.
 - **Arbitrary ID set.** As in the public-key registry, the IDs can be arbitrary strings.
+
+[^1]:  Confusingly also referred to as BN256 or alt_bn128
 
 But!
 - **Strong trust assumption.** Unlike the public-key registry, where users generate their own keys, IBE requires a trusted party or quorum of parties with a master secret (trapdoor) to issue keys. The master secret must be kept around for the whole lifetime of the system and can compromise all the registered users' messages if it is ever leaked or misused.
@@ -112,7 +114,7 @@ But!
 
 Summary: Similar to IBE, a user's identity serves as their public key, but the trusted third party/quorum is replaced with a transparent accumulator (called the "key curator").
 
-![rbe]()
+![rbe](../../files/on-chain%20RBE.svg)
 
 In this section, I'll discuss the efficient RBE construction from [my paper](https://eprint.iacr.org/2022/1505), since unlike the (to my knowledge) [only other practical construction](https://eprint.iacr.org/2023/404), it is currently deployable on a blockchain (being pairing-based instead of lattice-based). Whenever I say "RBE" I mean this particular construction, although some statements might be true of RBE in general.
 
