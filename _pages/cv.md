@@ -34,8 +34,9 @@ Education
   Max Planck Institute for Security and Privacy (MPI-SP)
 * **M.S., Computer Science** (2021)  
   University of Maryland
-* **B.S., Mathematics**, **B.S.C.S., Computer Science** (2019)  
-  University of South Carolina
+* **B.S., Mathematics** (2019)  
+  **B.S.C.S., Computer Science** (2019)  
+  University of South Carolina Honors College
 
 Publications
 ------
@@ -65,7 +66,7 @@ Service and Leadership
 ------
 * **Program Committee**  
   <a target="_blank" href="https://isc24.cs.gmu.edu/">ISC</a> (2024), 
-  <a target="_blank" href="http://ifca.ai/">Financial Crypto</a> (2024), 
+  <a target="_blank" href="http://ifca.ai/">Financial Crypto</a> (2025, 2024), 
   <a target="_blank" href="https://sp2024.ieee-security.org/cfposters.html">IEEE S&P Poster PC</a> (2023), 
   <a target="_blank" href="https://www.ndss-symposium.org/ndss2023/attend/student-support/">NDSS Student Support Committee</a> (2023)
 
@@ -80,11 +81,11 @@ Service and Leadership
   
 * **Founder, Organizer**  
    <!-- UMD CS Graduate Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">?</a>]</sup> (Fall 2021 - present) -->
-  <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - present)  
+  <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - Fall 2024)  
 
 * **Mentor**  
   <!-- UMD CS Graduate Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">?</a>]</sup> (Fall 2021 - present)   -->
-  <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - present)  
+  <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - Spring 2024)  
   <!-- Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://inclusion.cs.umd.edu/programs#mentoring">?</a>]</sup> (Fall 2020) -->
   <a target="_blank" href="https://inclusion.cs.umd.edu/programs#mentoring">Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program</a> (Fall 2020)
 
