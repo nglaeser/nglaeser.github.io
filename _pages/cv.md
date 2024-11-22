@@ -32,7 +32,7 @@ Education
 * **Ph.D., Computer Science** (2024)  
   University of Maryland &  
   Max Planck Institute for Security and Privacy (MPI-SP)  
-  *Dissertation: "Practical Cryptography for Blockchains: Secure Protocols with Minimal Trust"*
+  *Dissertation: ["Practical Cryptography for Blockchains: Secure Protocols with Minimal Trust"](../files/diss.pdf)*
 * **M.S., Computer Science** (2021)  
   University of Maryland
 * **B.S., Mathematics** (2019)  
