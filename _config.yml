@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Noemi Glaeser"
   avatar           : "profile.png"
-  bio              : "Cryptography researcher at UMD and MPI-SP"
-  location         : "College Park, MD, USA"
+  bio              : "Applied cryptographer"
+  # location         : "College Park, MD, USA"
   # location         : "Bochum, Germany"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=4gRwF6QAAAAJ"

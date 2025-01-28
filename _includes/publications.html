@@ -36,7 +36,9 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
     {% for pub in group.items %}
     <li id="{{ pub.title }}">
         <span class="title">{{ pub.title }}</span><br />
-        {% if pub.alpha %}*{% endif %}{{ pub.authors | join: ", " }}<br />
+        {% if pub.alpha %}*{% endif %}{{ pub.authors | join: ", " }}{% if pub.authnote %} <span
+            style="font-style: italic">({{pub.authnote}})</span>{% endif
+        %}<br />
         {% if pub.venues %}
         <span class="title">{{ pub.venues | join: "; " }}</span><br />
         {% endif %}

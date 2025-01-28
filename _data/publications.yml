@@ -12,7 +12,7 @@ pubs: [
   {
     year: "2024",
     title: "Cicada: A framework for private non-interactive on-chain auctions and voting",
-    authors: [<span class="me">Noemi Glaeser</span>, István András Seres, Michael Zhu, and Joseph Bonneau],
+    authors: [<span class="me">Noemi Glaeser</span>, István András Seres, Michael Zhu, Joseph Bonneau],
     alpha: false,
     venues: ["CTB Workshop at EC'24"],
     eprint: "2023/1473",
@@ -22,8 +22,9 @@ pubs: [
   },
   {
     year: "2024",
-    title: "Short paper: Naysayer proofs",
-    authors: [István András Seres, <span class="me">Noemi Glaeser</span>, and Joseph Bonneau],
+    title: "Naysayer proofs",
+    authors: [István András Seres&#134;, <span class="me">Noemi Glaeser</span>&#134;, Joseph Bonneau],
+    authnote: "&#134;equal contribution",
     alpha: false,
     venues: ["FC 2024", "CTB Workshop at EC'24"],
     eprint: "2023/1472",
@@ -36,7 +37,7 @@ pubs: [
   {
     year: "2024",
     title: "Universally Composable NIZKs: Circuit-Succinct, Non-Malleable and CRS-Updatable",
-    authors: [Behzad Abdolmaleki, <span class="me">Noemi Glaeser</span>, Sebastian Ramacher, and Daniel Slamanig],
+    authors: [Behzad Abdolmaleki, <span class="me">Noemi Glaeser</span>, Sebastian Ramacher, Daniel Slamanig],
     alpha: true,
     venues: ["CSF 2024"],
     eprint: "2023/097",
@@ -47,7 +48,7 @@ pubs: [
   {
     year: "2023",
     title: "Efficient Registration-Based Encryption",
-    authors: [<span class="me">Noemi Glaeser</span>, Dimitris Kolonelos, Giulio Malavolta, and Ahmadreza Rahimi],
+    authors: [<span class="me">Noemi Glaeser</span>, Dimitris Kolonelos, Giulio Malavolta, Ahmadreza Rahimi],
     alpha: true,
     venues: ["ACM CCS 2023"],
     eprint: "2022/1505",
