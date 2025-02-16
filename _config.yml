@@ -86,10 +86,10 @@ author:
   # location         : "College Park, MD, USA"
   # location         : "Bochum, Germany"
   employer         :
-  googlescholar    : "https://scholar.google.com/citations?user=4gRwF6QAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=NsdpCcgAAAAJ"
   dblp             : "https://dblp.org/pid/195/0134.html"
-  email_label      : "firstinitial lastname <br/>&emsp;&ensp;[at] umd [dot] edu"
-  email            : "firstinitial lastname [at] umd [dot] edu"
+  email_label      : "firstinitial lastname <br/>&emsp;&ensp;[at] disroot [dot] org"
+  email            : "firstinitial lastname [at] disroot [dot] org"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
