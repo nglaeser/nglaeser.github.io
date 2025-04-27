@@ -100,7 +100,7 @@ author:
   foursquare       :
   github           : "nglaeser"
   google_plus      :
-  keybase          : "nglaeser"
+  keybase          : #"nglaeser"
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
@@ -115,7 +115,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "cryptonoemi"
+  twitter          : #"cryptonoemi"
   vine             :
   weibo            :
   xing             :

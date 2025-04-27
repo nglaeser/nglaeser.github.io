@@ -12,7 +12,7 @@ redirect_from:
 
 Hello! I am an applied cryptographer[^1] working on the design and analysis of cryptographic protocols, especially in the context of blockchains. 
 
-I recently defended my PhD dissertation entitled **["Practical Cryptography for Blockchains: Secure Protocols with Minimal Trust"](../files/diss.pdf)**, which was advised by [Jonathan Katz](https://www.cs.umd.edu/~jkatz/) at the [University of Maryland](https://www.cs.umd.edu/people/nglaeser) and [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/) at the [Max Planck Institute for Security & Privacy](https://www.mpi-sp.org/person/116161/14251) via the [Maryland-Max Planck Program](https://www.cs.umd.edu/maryland-max-planck). 
+I recently defended my PhD dissertation entitled **["Practical Cryptography for Blockchains: Secure Protocols with Minimal Trust"](../files/diss.pdf)**, which was advised by [Jonathan Katz](https://www.cs.umd.edu/~jkatz/) at the [University of Maryland](https://www.cs.umd.edu/people/nglaeser) and [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/) at the [Max Planck Institute for Security and Privacy](https://www.mpi-sp.org/person/116161/14251) via the [Maryland-Max Planck Program](https://www.cs.umd.edu/maryland-max-planck). 
 
 In summer 2023, I was a research intern at [a16z crypto](https://a16zcrypto.com/research/), and the summer before that I was at [NTT Research](https://ntt-research.com/cis/). 
 I was also a recipient of the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). 

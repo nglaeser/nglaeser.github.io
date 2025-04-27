@@ -16,3 +16,12 @@ When I started grad school, I began collecting what I learned about cryptography
 <!-- ### Typos
 
 Found a typo in one of my papers? I've uploaded the source of most of my papers on GitHub, so please open a pull request to correct it by clicking the "typo?" link next to the paper [here](/publications). Thanks! -->
+
+### Reading List
+
+Here are some articles/blog posts I particularly enjoyed/found useful. I hope they may give you some new insights as well:
+- [Paper Pitfalls: Lessons From Reviewing](https://www.cs.umd.edu/~kaptchuk/blog/post/reviewing-reflections.html) by Gabe Kaptchuk
+
+### Other
+
+- [CS PhD Statements of Purpose](https://cs-sop.notion.site/CS-PhD-Statements-of-Purpose-df39955313834889b7ac5411c37b958d)
