@@ -17,9 +17,10 @@ I recently defended my PhD dissertation entitled **["Practical Cryptography for 
 In summer 2023, I was a research intern at [a16z crypto](https://a16zcrypto.com/research/), and the summer before that I was at [NTT Research](https://ntt-research.com/cis/). 
 I was also a recipient of the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). 
 
-<span style="color: gray;">*How to pronounce my name: No-Amy Glay-zer*</span>
+<span style="color: gray;">*How to pronounce my name: No-Amy Glay-zer[^2]*</span>
 
 [^1]: Ideally of the type described by Gabe Kaptchuk [here](https://www.cs.umd.edu/~kaptchuk/blog/post/work-with-me.html#appliedcrypto).
+[^2]: This is an approximation for English speakers. See the more accurate pronunciation [here](./name).
 
 News
 ---
