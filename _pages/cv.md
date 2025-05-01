@@ -100,4 +100,4 @@ Service and Leadership
 
 Technical Skills
 ------
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nglaeser&layout=compact&langs_count=10&hide=jupyter notebook,less,ruby,cmake,c&exclude_repo=CybersecSite,Notes)](https://github.com/nglaeser)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nglaeser&layout=compact&langs_count=10&hide=jupyter notebook,less,ruby,cmake,c,tex&exclude_repo=CybersecSite,Notes)](https://github.com/nglaeser)

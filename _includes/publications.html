@@ -42,6 +42,9 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
         {% if pub.venues %}
         <span class="title">{{ pub.venues | join: "; " }}</span><br />
         {% endif %}
+        {% if pub.pdf %}
+        [<a class="artifact-link" target="_blank" href="{{ pub.pdf }}">pdf</a>]
+        {% endif %}
         {% if pub.eprint %}
         [<a class="artifact-link" target="_blank" href="https://eprint.iacr.org/{{ pub.eprint }}">eprint</a>]
         {% endif %}

@@ -1,14 +1,26 @@
 pubs: [
   # {
-  #   year: "Preprints",
-  #   title: "CoVault: A Secure Analytics Platform",
-  #   authors: [Roberta De Viti, Isaac Sheff, <span class="me">Noemi Glaeser</span>, Baltasar Dinis, Rodrigo Rodrigues, Jonathan Katz, Bobby Bhattacharjee, Anwar Hithnawi, Deepak Garg, Peter Druschel],
-  #   alpha: false,
+  #   year: "Under revision",
+  #   title: "How to Back Up High-Value Secret Keys",
+  #   authors: [Sanjam Garg, <span class="me">Noemi Glaeser</span>, Abhishek Jain, Michael Lodder, Hart Montgomery],
+  #   alpha: true,
   #   venues: ,
   #   eprint: ,
-  #   arxiv: "2208.03784",
   #   doi: ,
+  #   tags: ["threshold signatures", "cryptocurrencies", "UC", "new primitive"],
   # },
+  {
+    year: "2025",
+    title: "CoVault: Secure, Scalable Analytics of Personal Data",
+    authors: [Roberta De Viti, Isaac Sheff, <span class="me">Noemi Glaeser</span>, Baltasar Dinis, Rodrigo Rodrigues, Bobby Bhattacharjee, Anwar Hithnawi, Deepak Garg, Peter Druschel],
+    alpha: false,
+    venues: ["USENIX Security 2025"],
+    pdf: "https://rdeviti.netlify.app/publication/content/publication/de-viti-2022-covault/covault.pdf",
+    eprint: ,
+    arxiv: "2208.03784",
+    doi: ,
+    tags: ["systems", "MPC"],
+  },
   {
     year: "2024",
     title: "Cicada: A framework for private non-interactive on-chain auctions and voting",
@@ -19,6 +31,7 @@ pubs: [
     arxiv: ,
     doi: ,
     github: "a16z/cicada",
+    tags: ["blockchain", "e-voting", "time-lock puzzles"],
   },
   {
     year: "2024",
@@ -33,6 +46,7 @@ pubs: [
     github: ,
     talk: "https://www.youtube.com/watch?v=yv4aLWK3Q-Q",
     blog: "papers/naysayer",
+    tags: ["zero-knowledge", "blockchain", "rollups"],
   },
   {
     year: "2024",
@@ -44,6 +58,7 @@ pubs: [
     arxiv: ,
     doi: "10.1109/CSF61375.2024.00006",
     github: "nglaeser/sonic-ucse",
+    tags: ["zero-knowledge", "UC"], 
   },
   {
     year: "2023",
@@ -56,6 +71,7 @@ pubs: [
     doi: "10.1145/3576915.3616596",
     github: "ahmadrezarahimi/efficientRBE",
     talk: "https://youtu.be/sbgdJuJqD0I",
+    tags: ["public-key crypto", "pairings"],
   },
   {
     year: "2022",
@@ -67,17 +83,19 @@ pubs: [
     arxiv: ,
     doi: "10.1145/3548606.3560637",
     talk: "https://youtu.be/q9-xxy43BnM?t=4486",
+    tags: ["cryptocurrencies", "security analysis", "UC", "new primitive"],
   },
   {
     year: "previous",
     title: "Optical follow-up of gravitational wave triggers with DECam during the first two LIGO/VIRGO observing runs",
     authors: [Kenneth Herner, <span class="me">et al.</span>],
     alpha: false,
-    venues: ["Astronomy & Computing, 33, 100425"],
+    venues: ["Astronomy & Computing, 33, 100425 (2020)"],
     eprint: ,
     arxiv: "2001.06551",
     doi: "10.1016/j.ascom.2020.100425",
     github: "SSantosLab/gw_workflow",
+    tags: ["astrophysics"],
   },
   {
     year: "previous",
@@ -89,5 +107,6 @@ pubs: [
     arxiv: ,
     doi: "10.1109/SARNOF.2016.7846728",
     github: "ravel-net/REU-access-control",
+    tags: ["software-defined networking"],
   },
 ]
