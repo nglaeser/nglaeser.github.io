@@ -50,14 +50,14 @@ To register, a user generates a key-pair (or uses a previously generated key-pai
 
 Let's take a look at the properties of this method. 
 
-| Positives                  | Negatives             
-|:---------------------------|:---------------------------------
-|                            | Not succinct
+| Positives                         | Negatives            |
+| :-------------------------------- | :------------------- |
+|                                   | Not succinct         |
 | (Somewhat) interactive encryption |
-| Non-interactive decryption | 
-| Transparent                | 
-|                            | Not sender-anonymous
-| Arbitrary IDs              | 
+| Non-interactive decryption        |
+| Transparent                       |
+|                                   | Not sender-anonymous |
+| Arbitrary IDs                     |
 
 On the negative side of the ledger: 
 - **Not succinct.** The full key directory needs to be stored on-chain so it is always available to everyone (remember, for now we're assuming no DAS). For the ~900K [unique domain names registered in ENS at the time of this writing](https://dune.com/queries/2101527/3458714), this means nearly 90MB of persistent storage. Registering parties need to pay for the storage their entry takes up, about 65K gas (currently roughly $1 — see the performance evaluation below).
@@ -87,14 +87,14 @@ Even if the msk is kept safe, every user who registers in the system needs to tr
 
 This trust can instead be distributed among a quorum of key generators, so that a user needs to trust only a threshold number of them. In that case a small number of malicious key generators can't recover secret keys or compute bad keys, and an attacker would have to break into multiple systems to steal the full master secret. 
 
-| Positives                  | Negatives             
-|:---------------------------|:---------------------------------
-| Constant/minimal on-chain storage | 
-| Non-interactive encryption |
-| Non-interactive decryption |
-|                            | Strong trust assumption
-| Sender-anonymous           |
-| Arbitrary IDs
+| Positives                         | Negatives               |
+| :-------------------------------- | :---------------------- |
+| Constant/minimal on-chain storage |
+| Non-interactive encryption        |
+| Non-interactive decryption        |
+|                                   | Strong trust assumption |
+| Sender-anonymous                  |
+| Arbitrary IDs                     |
 
 If users are OK with this trust assumption, (threshold) IBE comes with a lot of benefits:
 - **Constant/minimal on-chain storage.** Only the master public key (a single group element) needs to be stored on-chain. This is much less than the storage required by an on-chain public key directory. For the Boneh-Franklin IBE over the BN254 curve[^1], this means adding 64 bytes of persistent on-chain storage once during the setup phase, requiring the service to spend only 40K gas.
@@ -112,7 +112,7 @@ But!
 
 # Registration-Based Encryption (RBE)
 
-Summary: Similar to IBE, a user's identity serves as their public key, but the trusted third party/quorum is replaced with a transparent accumulator (called the "key curator").
+**Summary**: Similar to IBE, a user's identity serves as their public key, but the trusted third party/quorum is replaced with a transparent accumulator (called the "key curator").
 
 ![rbe](../../files/on-chain%20RBE.svg)
 
@@ -145,11 +145,11 @@ When might you want to use RBE? RBE uses less on-chain storage than an on-chain 
 
 I estimated the costs (as of July 30, 2024) of deploying each of these three approaches on-chain in [this Colab notebook](https://colab.research.google.com/drive/1mEDzJqw3BCHzi-151li4Pa_4wP53VM2P?usp=sharing). The results for a system capacity of ~900K users (the number of [unique domain names registered in ENS at the time of this writing](https://dune.com/queries/2101527/3458714)) are shown in the table below.
 
-|           | Setup cost &#13; (one-time) | Registration cost (per user)
-|:----------|---------------------:|------------------------:
-| **PKD**   | 0 gas (\$0.00)       | 64740 gas (\$0.96)
-| **IBE**   | 41024 gas (\$0.61)   | 40 gas (\$0.01)
-| **RBE**   | 110278328 gas (\$3312.35) | 185600 gas (\$6.05)
+|         | Setup cost &#13; (one-time) | Registration cost (per user) |
+| :------ | --------------------------: | ---------------------------: |
+| **PKD** |              0 gas (\$0.00) |           64740 gas (\$0.96) |
+| **IBE** |          41024 gas (\$0.61) |              40 gas (\$0.01) |
+| **RBE** |   110278328 gas (\$3312.35) |          185600 gas (\$6.05) |
 
 PKI has no setup cost and a low registration cost per user, while IBE has a small setup cost and practically free registration per user. RBE has a higher setup cost and also an unexpectedly high registration cost, despite the low on-chain storage required.
 
@@ -163,7 +163,7 @@ Although RBE is more expensive than the alternatives, this analysis shows that i
 
 In the case of a public key directory, handling key updates and revocations is simple: to revoke a key, a party asks the contract to erase it from the directory. To update a key, the entry (id, pk) is overwritten with a new key to (id, pk').
 
-For revocation in IBE, Boneh and Franklin suggested that users periodically update their keys (e.g., every week), and that senders include the current time period in the identity string when encrypting (e.g., "Bob <current week>"). Because of the non-interactive nature of encryption, senders have no way of knowing when a user revokes its key, so some period updates are inherent. Boldyreva, Goyal, and Kumar gave a [more efficient revocation mechanism](http://www.cs.cmu.edu/~goyal/ribe-proc.pdf) based on ["Fuzzy" IBE](https://eprint.iacr.org/2004/086) which requires two keys for decryption: an "identity" key and an additional "time" key. This way, only the time key must be updated regularly. The users' time keys are accumulated in a binary tree, and a user can use any node along the path (in the basic case, only the root is necessary and it's the only part that is published by the key generator). Key revocation is achieved by no longer publishing updates for a particular user (deleting nodes along that user's path from the tree), in which case the size of the update increases but is never more than logarithmic in the number of users.
+For revocation in IBE, Boneh and Franklin suggested that users periodically update their keys (e.g., every week), and that senders include the current time period in the identity string when encrypting (e.g., "Bob \<current week\>"). Because of the non-interactive nature of encryption, senders have no way of knowing when a user revokes its key, so some period updates are inherent. Boldyreva, Goyal, and Kumar gave a [more efficient revocation mechanism](http://www.cs.cmu.edu/~goyal/ribe-proc.pdf) based on ["Fuzzy" IBE](https://eprint.iacr.org/2004/086) which requires two keys for decryption: an "identity" key and an additional "time" key. This way, only the time key must be updated regularly. The users' time keys are accumulated in a binary tree, and a user can use any node along the path (in the basic case, only the root is necessary and it's the only part that is published by the key generator). Key revocation is achieved by no longer publishing updates for a particular user (deleting nodes along that user's path from the tree), in which case the size of the update increases but is never more than logarithmic in the number of users.
 
 Our efficient RBE construction didn't consider updates and revocations, a [follow-up work](https://eprint.iacr.org/2023/1389) gives a compiler that can "upgrade" our scheme to add these functionalities. 
 

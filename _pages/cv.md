@@ -42,7 +42,7 @@ Education
 Publications
 ------
   {% include publications.html %}
-  
+
 Invited Talks
 ------
 * *Foundations of Coin Mixing Services*  
@@ -90,13 +90,13 @@ Service and Leadership
   <!-- Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://inclusion.cs.umd.edu/programs#mentoring">?</a>]</sup> (Fall 2020) -->
   <a target="_blank" href="https://inclusion.cs.umd.edu/programs#mentoring">Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program</a> (Fall 2020)
 
-* **Packet Writer**  
+<!-- * **Packet Writer**   -->
   <!-- UMD Girls Talk Math<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gtm.math.umd.edu/virtualcamp2021.html">?</a>]</sup> (Summer 2021 & Summer 2022) -->
-  <a target="_blank" href="http://gtm.math.umd.edu">UMD Girls Talk Math</a> (Summer 2021 & Summer 2022)
-  [<a class="artifact-link" target="_blank" href="https://github.com/nglaeser/gtm2021/blob/main/packet/main.pdf">pdf</a>]
+  <!-- <a target="_blank" href="http://gtm.math.umd.edu">UMD Girls Talk Math</a> (Summer 2021 & Summer 2022)
+  [<a class="artifact-link" target="_blank" href="https://github.com/nglaeser/gtm2021/blob/main/packet/main.pdf">pdf</a>] -->
 
-* **Organizer**  
-  UMD Cryptography Reading Group (Fall 2020 - Spring 2021)
+<!-- * **Organizer**  
+  UMD Cryptography Reading Group (Fall 2020 - Spring 2021) -->
 
 Technical Skills
 ------

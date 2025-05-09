@@ -25,10 +25,18 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
     }
 </style>
 
-{% assign pubs_by_year = site.data.publications.pubs | group_by: "year" %}
+{% assign pubs_by_year_no_man = site.data.publications.pubs | group_by: "year" | where_exp: "group", "group.name !=
+'manuscript'"
+%}
+{% assign manuscripts = site.data.publications.pubs | group_by: "year" | where_exp: "group", "group.name ==
+'manuscript'" %}
+
+{% assign pubs_by_year = pubs_by_year_no_man | concat: manuscripts %}
 {% for group in pubs_by_year %}
 {% if group.name == "previous" %}
 <h3>Selected Previous Publications</h3>
+{% elsif group.name == "manuscript" %}
+<h3>Manuscripts</h3>
 {% else %}
 <h3 id="{{group.name}}">{{ group.name }}</h3>
 {% endif %}
@@ -44,6 +52,9 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
         {% endif %}
         {% if pub.pdf %}
         [<a class="artifact-link" target="_blank" href="{{ pub.pdf }}">pdf</a>]
+        {% endif %}
+        {% if pub.source %}
+        [<a class="artifact-link" target="_blank" href="{{ pub.source }}">source</a>]
         {% endif %}
         {% if pub.eprint %}
         [<a class="artifact-link" target="_blank" href="https://eprint.iacr.org/{{ pub.eprint }}">eprint</a>]
