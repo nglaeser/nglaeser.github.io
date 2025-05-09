@@ -13,7 +13,7 @@ excerpt: false
 share: false
 ---
 
-*Cross-posted from the [a16z crypto blog](https://a16zcrypto.com/posts/article/registration-based-encryption/). There is also a [summary Twitter thread](https://x.com/cryptonoemi/status/1823719451692556704).*
+*A slightly modified version of my original post for the [a16z crypto blog](https://a16zcrypto.com/posts/article/registration-based-encryption/). There is also a [summary Twitter thread](https://x.com/cryptonoemi/status/1823719451692556704).*
 
 Linking cryptographic keys to identities has been an issue since [the introduction of the technology](https://en.wikipedia.org/wiki/Public-key_cryptography#History). The challenge is providing and maintaining a publicly available and consistent mapping between identities and public keys (to which those identities have the private key). Without such a mapping, messages intended to be secret can go awry — sometimes with disastrous outcomes. This same challenge exists in web3.
 
@@ -50,14 +50,14 @@ To register, a user generates a key-pair (or uses a previously generated key-pai
 
 Let's take a look at the properties of this method. 
 
-| Positives                         | Negatives            |
-| :-------------------------------- | :------------------- |
-|                                   | Not succinct         |
-| (Somewhat) interactive encryption |
-| Non-interactive decryption        |
-| Transparent                       |
-|                                   | Not sender-anonymous |
-| Arbitrary IDs                     |
+|                            | Positives                   | Negatives |
+| :------------------------- | :-------------------------- | :-------- |
+| Succinct on-chain storage  |                             | :x:       |
+| Non-interactive encryption | :white_check_mark: (mostly) |           |
+| Non-interactive decryption | :heavy_check_mark:          |           |
+| Transparent                | :heavy_check_mark:          |           |
+| Sender-anonymous           |                             | :x:       |
+| Arbitrary IDs              | :heavy_check_mark:          |           |
 
 On the negative side of the ledger: 
 - **Not succinct.** The full key directory needs to be stored on-chain so it is always available to everyone (remember, for now we're assuming no DAS). For the ~900K [unique domain names registered in ENS at the time of this writing](https://dune.com/queries/2101527/3458714), this means nearly 90MB of persistent storage. Registering parties need to pay for the storage their entry takes up, about 65K gas (currently roughly $1 — see the performance evaluation below).
@@ -87,14 +87,15 @@ Even if the msk is kept safe, every user who registers in the system needs to tr
 
 This trust can instead be distributed among a quorum of key generators, so that a user needs to trust only a threshold number of them. In that case a small number of malicious key generators can't recover secret keys or compute bad keys, and an attacker would have to break into multiple systems to steal the full master secret. 
 
-| Positives                         | Negatives               |
-| :-------------------------------- | :---------------------- |
-| Constant/minimal on-chain storage |
-| Non-interactive encryption        |
-| Non-interactive decryption        |
-|                                   | Strong trust assumption |
-| Sender-anonymous                  |
-| Arbitrary IDs                     |
+|                            | Positives                     | Negatives |
+| :------------------------- | :---------------------------- | :-------- |
+| Succinct on-chain storage  | :heavy_check_mark: (optimal!) |           |
+| Non-interactive encryption | :heavy_check_mark:            |           |
+| Non-interactive decryption | :heavy_check_mark:            |           |
+| Transparent                |                               | :x:       |
+| Sender-anonymous           | :heavy_check_mark:            |           |
+| Arbitrary IDs              | :heavy_check_mark:            |           |
+
 
 If users are OK with this trust assumption, (threshold) IBE comes with a lot of benefits:
 - **Constant/minimal on-chain storage.** Only the master public key (a single group element) needs to be stored on-chain. This is much less than the storage required by an on-chain public key directory. For the Boneh-Franklin IBE over the BN254 curve[^1], this means adding 64 bytes of persistent on-chain storage once during the setup phase, requiring the service to spend only 40K gas.
@@ -127,6 +128,15 @@ Registered users also need to maintain some "auxiliary information" locally, whi
 Senders in this system download the CRS once and occasionally download the most recent version of the public parameters. For the public parameters, all that matters from the sender's point of view is that they include the intended recipient's public key; it doesn't have to be the most up-to-date version. The sender can then use the CRS and the public parameters, along with the recipient ID, to encrypt a message to the recipient.
 
 Upon receiving a message, the user checks its locally stored auxiliary information for a value passing some check. (If it finds none, it means it needs to fetch an update from the contract.) Using this value and its secret key, the user can decrypt the ciphertext.
+
+|                            | Positives                           | Negatives |
+| :------------------------- | :---------------------------------- | :-------- |
+| Succinct on-chain storage  | :heavy_check_mark:                  |           |
+| Non-interactive encryption | :white_check_mark: (somewhat)       |           |
+| Non-interactive decryption | :white_check_mark: (somewhat)       |           |
+| Transparent                | :heavy_check_mark:                  |           |
+| Sender-anonymous           | :heavy_check_mark:                  |           |
+| Arbitrary IDs              | :white_check_mark: (with extension) |           |
 
 Clearly, this scheme is more complex than the two others. But it requires less on-chain storage than the public-key directory while avoiding the strong trust assumption of IBE.
 - **Succinct parameters.** The size of parameters to be stored on-chain is sublinear in the number of users. This is much smaller than the total storage required for a public-key directory (linear in the number of users), but still not constant and therefore worse compared to IBE.
