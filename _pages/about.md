@@ -12,7 +12,7 @@ redirect_from:
 
 Hello! I am an applied cryptographer[^1] working on the design and analysis of cryptographic protocols, especially in the context of blockchains. 
 
-I recently defended my PhD dissertation entitled **["Practical Cryptography for Blockchains: Secure Protocols with Minimal Trust"](../files/diss.pdf)**, which was advised by [Jonathan Katz](https://www.cs.umd.edu/~jkatz/) at the [University of Maryland](https://www.cs.umd.edu/people/nglaeser) and [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/) at the [Max Planck Institute for Security and Privacy](https://www.mpi-sp.org/person/116161/14251) via the [Maryland-Max Planck Program](https://www.cs.umd.edu/maryland-max-planck). 
+I defended my PhD dissertation entitled **["Practical Cryptography for Blockchains: Secure Protocols with Minimal Trust"](../files/diss.pdf)** in December, advised by [Jonathan Katz](https://www.cs.umd.edu/~jkatz/) at the [University of Maryland](https://www.cs.umd.edu/people/nglaeser) and [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/) at the [Max Planck Institute for Security and Privacy](https://www.mpi-sp.org/person/116161/14251) via the [Maryland-Max Planck Program](https://www.cs.umd.edu/maryland-max-planck). 
 
 In summer 2023, I was a research intern at [a16z crypto](https://a16zcrypto.com/research/), and the summer before that I was at [NTT Research](https://ntt-research.com/cis/). 
 I was also a recipient of the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). 
@@ -25,7 +25,7 @@ I was also a recipient of the [NSF Graduate Research Fellowship](https://www.nsf
 News
 ---
 - **2025-01-28:** In writing my dissertation, I significantly reworked the formalism of [naysayer proofs](./publications.md#Naysayer proofs) and clarified details in our main theorem and example constructions. The [eprint version](https://eprint.iacr.org/2023/1472) has now been updated with these improvements! Go check it out :)
-- **2024-11-22:** I am currently looking for applied research positions in industry in cryptographic protocol design and related areas. Please see [my CV](./cv.md) and reach out if you think I may be a good fit!
+<!-- - **2024-11-22:** I am currently looking for applied research positions in industry in cryptographic protocol design and related areas. Please see [my CV](./cv.md) and reach out if you think I may be a good fit! -->
 - **2024-10-28:** I succesfully defended my dissertation, entitled ["Practical Cryptography for Blockchains: Secure Protocols with Minimal Trust"](../files/diss.pdf)!
 <!-- - **2024-10-26:** My dissertation defense will be this Monday, October 28, at 2pm EDT! Please reach out for details if you are interested in attending :) -->
 <!-- - **2024-08-14:** The [blog post](https://a16zcrypto.com/posts/article/registration-based-encryption/) I wrote at a16z crypto last summer is finally online! (You can also find it [here on my site](papers/onchain_rbe).) In it, I compare registration-based encryption (the version from [our 2023 paper](./publications.md#Efficient Registration-Based Encryption)) to previous key distribution approaches for encrypted messaging. (If you don't want to read a whole blog post, [here's the Twitter thread version](https://x.com/cryptonoemi/status/1823719451692556704).) -->

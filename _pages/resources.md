@@ -7,15 +7,18 @@ redirect_from:
 
 ### [Crypto Glossary](https://nglaeser.github.io/crypto-glossary)
 
-When I started grad school, I began collecting what I learned about cryptography in a sort of glossary. Its purpose was mainly personal, since rewriting definitions and connections between cryptography concepts in my own words helps me to better understand them. However, I've tried to make it generally accessible so it may be a helpful resource for others as well. If I wrote something stupid or if you simply have something to add, please feel free to open a <a target="_blank" href="https://github.com/nglaeser/crypto-glossary/pulls">pull request</a>.
+When I started grad school, I began collecting what I learned about cryptography in a sort of glossary. Its purpose was mainly personal, since rewriting definitions and connections between cryptography concepts in my own words helps me to better understand them. However, I've tried to make it generally accessible so it may be a helpful resource for others as well. If I made a mistake or if you simply have something to add, please feel free to <a target="_blank" href="https://github.com/nglaeser/crypto-glossary/issues/new">open an issue</a> or <a target="_blank" href="https://github.com/nglaeser/crypto-glossary/fork">fork</a> and make a pull request.
 
 <!-- ### Typos
 
 Found a typo in one of my papers? I've uploaded the source of most of my papers on GitHub, so please open a pull request to correct it by clicking the "typo?" link next to the paper [here](/publications). Thanks! -->
+<!-- short blog post to announce ^ -->
+<!-- see also Mahimna’s Overleaf/girhub remote stnc setup? -->
 
-### [CryptoTeX](https://github.com/nglaeser/cryptotex)
+<!-- ### [CryptoTeX](https://github.com/nglaeser/cryptotex)
 
-Flexible LaTeX template for cryptography papers. Includes common packages and macros, switches for common conference formats, and uses [CryptoBib](https://cryptobib.di.ens.fr/) with cross-references for easy citation management. This is a work in progress as I work on standardizing my own crypto notation/macros/etc. Feel free to request added features or changes by <a target="_blank" href="https://github.com/nglaeser/cryptotex/issues/new">opening a GitHub issue</a>.
+*(Work in progress)*  
+Flexible LaTeX template for cryptography papers. Includes common packages and macros, switches for common conference formats, and uses [CryptoBib](https://cryptobib.di.ens.fr/) with cross-references for easy citation management. Feel free to request added features or changes by <a target="_blank" href="https://github.com/nglaeser/cryptotex/issues/new">opening a GitHub issue</a>. -->
 
 <!-- ### CryptoPrelims 
 
