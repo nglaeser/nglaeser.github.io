@@ -27,6 +27,8 @@ h1 {
 
 # CV <span class="small">[<a class="artifact-link" target="_blank" href="{{ base_path }}/files/Glaeser_CV_research.pdf">pdf</a>]</span>
 
+*An industry-tailored résumé can be found <a class="artifact-link" target="_blank" href="{{ base_path }}/files/Glaeser_resume.pdf">here</a>.*
+
 Education
 ------
 * **Ph.D., Computer Science** (2024)  
@@ -100,4 +102,8 @@ Service and Leadership
 
 Technical Skills
 ------
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nglaeser&layout=compact&langs_count=10&hide=jupyter notebook,less,ruby,cmake,c,tex&exclude_repo=CybersecSite,Notes)](https://github.com/nglaeser)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nglaeser&layout=compact&langs_count=10&hide=jupyter notebook,less,ruby,cmake,c,tex&exclude_repo=CybersecSite,Notes,nglaeser.github.io)](https://github.com/nglaeser)
+
+<!-- [![GitHub stats](https://github-readme-stats.vercel.app/api/?username=nglaeser&show_icons=true)](https://github.com/nglaeser) -->
+
+<!-- [![Throback repo](https://github-readme-stats.vercel.app/api/pin/?username=nglaeser&repo=agora-key-share-proofs)](https://github.com/LF-Decentralized-Trust-labs/agora-key-share-proofs) -->
