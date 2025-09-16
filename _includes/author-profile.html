@@ -63,6 +63,11 @@
                                     class="fab fa-fw fa-mastodon" style="color: #584ad6;" aria-hidden="true"></i>
                               Mastodon</a></li>
                   {% endif %}
+                  {% if author.farcaster %}
+                  <li><a target="_blank" rel="me" href="https://farcaster.xyz/{{ author.farcaster }}"><i
+                                    class="fa-fw custom-farcaster" aria-hidden="true"></i>
+                              Farcaster</a></li>
+                  {% endif %}
                   {% if author.facebook %}
                   <li><a target="_blank" href="https://www.facebook.com/{{ author.facebook }}"><i
                                     class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>

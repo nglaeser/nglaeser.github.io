@@ -6,3 +6,9 @@ article a:not(.artifact-link, .sidebar) {
         text-decoration: none;
     }
 }
+
+// custom icons
+.custom-farcaster {
+    content: url('farcaster-purple.svg');
+    vertical-align: middle;
+}
