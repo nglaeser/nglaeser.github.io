@@ -28,6 +28,7 @@ Hoping to do for Prelims sections what [CryptoBib](https://cryptobib.di.ens.fr/)
 
 Here are some articles/blog posts I particularly enjoyed/found useful. I hope they may give you some new insights as well:
 - [Paper Pitfalls: Lessons From Reviewing](https://www.cs.umd.edu/~kaptchuk/blog/post/reviewing-reflections.html) by Gabe Kaptchuk
+- [Is Telegram really an encrypted messaging app?](https://blog.cryptographyengineering.com/2024/08/25/telegram-is-not-really-an-encrypted-messaging-app/) by Matt Green
 
 ### Notion Template
 
@@ -40,3 +41,4 @@ _Note: I'm in the process of moving over to Obsidian, and hopefully I'll eventua
 - [CryptoBib](https://cryptobib.di.ens.fr/)
 - [LaTeX source of my dissertation](https://github.com/nglaeser/dissertation)
 - [CS PhD Statements of Purpose](https://cs-sop.notion.site/CS-PhD-Statements-of-Purpose-df39955313834889b7ac5411c37b958d)
+- [Detexify](https://detexify.kirelabs.org/classify.html)
