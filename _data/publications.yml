@@ -1,14 +1,14 @@
 pubs: [
-  # {
-  #   year: "Under revision",
-  #   title: "How to Back Up High-Value Secret Keys",
-  #   authors: [Sanjam Garg, <span class="me">Noemi Glaeser</span>, Abhishek Jain, Michael Lodder, Hart Montgomery],
-  #   alpha: true,
-  #   venues: ,
-  #   eprint: ,
-  #   doi: ,
-  #   tags: ["threshold signatures", "cryptocurrencies", "UC", "new primitive"],
-  # },
+  {
+    year: "In preparation",
+    title: "How to Back Up High-Value Secret Keys",
+    authors: [Sanjam Garg, <span class="me">Noemi Glaeser</span>, Abhishek Jain, Michael Lodder, Hart Montgomery],
+    alpha: true,
+    venues: ,
+    eprint: ,
+    doi: ,
+    tags: ["threshold signatures", "cryptocurrencies", "UC", "new primitive"],
+  },
   {
     year: "2025",
     title: "CoVault: Secure, Scalable Analytics of Personal Data",
