@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-:loudspeaker: **_I am currently looking for applied research positions in industry. Please see [my résumé](../files/Glaeser_resume.pdf) and reach out if you think I may be a good fit!_**
+:loudspeaker: **_I am currently on the job market! Please see my CV ([industry](../files/Glaeser_resume.pdf) / [academic](../files/Glaeser_CV_research.pdf)) and reach out if you think I may be a good fit!_**
 
 Hello! I am an [applied cryptographer](https://www.cs.umd.edu/~kaptchuk/blog/post/work-with-me.html#appliedcrypto) working on the design and analysis of cryptographic protocols, especially in the context of blockchains. My work aims to bridge theory and practice with the goal of helping to empower users, increase privacy, and reduce or eliminate trusted third parties. 
 
