@@ -10,11 +10,10 @@ redirect_from:
 
 <!-- :loudspeaker: **_I am currently on the job market! Please see my CV ([industry](../files/Glaeser_resume.pdf) / [academic](../files/Glaeser_CV_research.pdf)) and reach out if you think I may be a good fit!_** -->
 
-Hello! I am an [applied cryptographer](https://www.cs.umd.edu/~kaptchuk/blog/post/work-with-me.html#appliedcrypto) working on the design and analysis of cryptographic protocols, especially in the context of blockchains. My work aims to bridge theory and practice with the goal of helping to empower users, increase privacy, and reduce or eliminate trusted third parties. 
+Hello! I am an [applied cryptographer](https://www.cs.umd.edu/~kaptchuk/blog/post/work-with-me.html#appliedcrypto) working on the design and analysis of cryptographic protocols, especially in the context of blockchains. My work aims to bridge theory and practice with the goal of helping to empower users, increase privacy, and reduce or eliminate trusted third parties. I have worked on threshold signatures, off-chain payments/rollups, and private voting.
 
-Starting in January 2026, I will be a postdoc in the [Applied Cryptography Group](https://www.informatik.tu-darmstadt.de/cac/cac/index.en.jsp) at TU Darmstadt.
-
-I completed my PhD in Computer Science in December 2024, advised by [Jonathan Katz](https://www.cs.umd.edu/~jkatz/) at the [University of Maryland](https://www.cs.umd.edu/people/nglaeser) (UMD) and [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/) at the [Max Planck Institute for Security and Privacy](https://www.mpi-sp.org/person/116161/14251) (MPI-SP) via the [Maryland-Max Planck Program](https://www.cs.umd.edu/maryland-max-planck). My dissertation was entitled **["Practical Cryptography for Blockchains: Secure Protocols with Minimal Trust"](../files/diss.pdf)**.
+I am currently a postdoc in the [Applied Cryptography Group](https://www.informatik.tu-darmstadt.de/cac/cac/index.en.jsp) at TU Darmstadt.
+Before that, I completed my PhD in Computer Science in December 2024, advised by [Jonathan Katz](https://www.cs.umd.edu/~jkatz/) at the [University of Maryland](https://www.cs.umd.edu/people/nglaeser) (UMD) and [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/) at the [Max Planck Institute for Security and Privacy](https://www.mpi-sp.org/person/116161/14251) (MPI-SP) via the [Maryland-Max Planck Program](https://www.cs.umd.edu/maryland-max-planck). My dissertation was entitled **["Practical Cryptography for Blockchains: Secure Protocols with Minimal Trust"](../files/diss.pdf)**.
 In summer 2023, I was a research intern at [a16z crypto](https://a16zcrypto.com/research/), and in summer 2022, I was at [NTT Research](https://ntt-research.com/cis/). 
 I was also a recipient of the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). 
 
@@ -24,7 +23,7 @@ I was also a recipient of the [NSF Graduate Research Fellowship](https://www.nsf
 
 News
 ---
-- **2025-12-01:** I have accepted a postdoc position in the [Applied Cryptography Group](https://www.informatik.tu-darmstadt.de/cac/cac/index.en.jsp) at TU Darmstadt, beginning January 2026.
+- **2026-01-15:** I started as a postdoc in the [Applied Cryptography Group](https://www.informatik.tu-darmstadt.de/cac/cac/index.en.jsp) at TU Darmstadt.
 - **2025-09-15:** I am on the program committee for [Financial Cryptography 2026](https://fc26.ifca.ai/index.html) -- please consider submitting your relevant work! The deadline has been extended to September 20, 2025.
 - **2025-01-28:** In writing my dissertation, I significantly reworked the formalism of [naysayer proofs](./publications.md#Naysayer proofs) and clarified details in our main theorem and example constructions. The [eprint version](https://eprint.iacr.org/2023/1472) has now been updated with these improvements! Go check it out :)
 <!-- - **2024-11-22:** I am currently looking for applied research positions in industry in cryptographic protocol design and related areas. Please see [my CV](./cv.md) and reach out if you think I may be a good fit! -->
