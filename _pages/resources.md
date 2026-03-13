@@ -38,7 +38,8 @@ _Note: I'm in the process of moving over to Obsidian, and hopefully I'll eventua
 
 ### Other
 
-- [CryptoBib](https://cryptobib.di.ens.fr/)
-- [LaTeX source of my dissertation](https://github.com/nglaeser/dissertation)
-- [CS PhD Statements of Purpose](https://cs-sop.notion.site/CS-PhD-Statements-of-Purpose-df39955313834889b7ac5411c37b958d)
+- [CryptoBib](https://cryptobib.di.ens.fr/) and accompanying [search tool](https://publish.iacr.org/cryptobib)
 - [Detexify](https://detexify.kirelabs.org/classify.html)
+- [LaTeX source of my dissertation](https://github.com/nglaeser/dissertation)
+- [What to ask/look for in a PhD advisor](../files/AdvisorQs.pdf)
+- [CS PhD Statements of Purpose](https://cs-sop.notion.site/CS-PhD-Statements-of-Purpose-df39955313834889b7ac5411c37b958d)
