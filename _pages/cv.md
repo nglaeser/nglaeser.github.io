@@ -27,7 +27,7 @@ h1 {
 
 # CV <span class="small">[<a class="artifact-link" target="_blank" href="{{ base_path }}/files/Glaeser_CV_research.pdf">pdf</a>]</span>
 
-*An industry-tailored résumé can be found <a class="artifact-link" target="_blank" href="{{ base_path }}/files/Glaeser_resume.pdf">here</a>.*
+*Version for industry <a class="artifact-link" target="_blank" href="{{ base_path }}/files/Glaeser_resume.pdf">here</a>.*
 
 Education
 ------
@@ -68,27 +68,36 @@ Experience
 Service and Leadership
 ------
 * **Program Committee**  
-  <a target="_blank" href="https://isc24.cs.gmu.edu/">ISC</a> (2024), 
-  <a target="_blank" href="http://ifca.ai/">Financial Crypto</a> (2025, 2024), 
-  <a target="_blank" href="https://sp2024.ieee-security.org/cfposters.html">IEEE S&P Poster PC</a> (2023), 
-  <a target="_blank" href="https://www.ndss-symposium.org/ndss2023/attend/student-support/">NDSS Student Support Committee</a> (2023)
+  <!-- - 2027: 
+  <a target="_blank" href="http://ifca.ai/">Financial Crypto</a> -->
+  2026: 
+  <a target="_blank" href="http://ifca.ai/">FC</a>  
+  2025: 
+  <a target="_blank" href="http://ifca.ai/">FC</a>  
+  2024: 
+  <a target="_blank" href="https://isc24.cs.gmu.edu/">ISC</a>, 
+  <a target="_blank" href="http://ifca.ai/">FC</a>  
+  2023: 
+  <a target="_blank" href="https://sp2024.ieee-security.org/cfposters.html">S&P Posters</a>, 
+  <a target="_blank" href="https://www.ndss-symposium.org/ndss2023/attend/student-support/">NDSS Student Support</a>
 
 * **External Reviewer**  
+  <a target="_blank" href="https://eurocrypt.iacr.org/">EUROCRYPT</a> (2026), 
   <a target="_blank" href="https://2024.cansconference.org/">CANS</a> (2024), 
   <a target="_blank" href="https://www.acisp24.com/">ACISP</a> (2024), 
-  <a target="_blank" href="https://sp2024.ieee-security.org/past.html">IEEE S&P</a> (2024), 
-  <a target="_blank" href="https://crypto.iacr.org/">IACR Crypto</a> (2023), 
-  <a target="_blank" href="https://www.sigsac.org/ccs.html">ACM CCS</a> (2023, 2020), 
+  <a target="_blank" href="https://sp2024.ieee-security.org/past.html">S&P</a> (2024), 
+  <a target="_blank" href="https://crypto.iacr.org/">CRYPTO</a> (2023), 
+  <a target="_blank" href="https://www.sigsac.org/ccs.html">CCS</a> (2023, 2020), 
   <a target="_blank" href="https://petsymposium.org/">PETS</a> (2023.3, 2022.4, 2022.1), 
   <a target="_blank" href="https://pkc.iacr.org/">PKC</a> (2022)
   
-* **Founder, Organizer**  
+<!-- * **Organizer**   -->
    <!-- UMD CS Graduate Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">?</a>]</sup> (Fall 2021 - present) -->
-  <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - Fall 2024)  
+  <!-- <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - Fall 2024)   -->
 
-* **Mentor**  
+* **Mentorship**  
   <!-- UMD CS Graduate Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">?</a>]</sup> (Fall 2021 - present)   -->
-  <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - Spring 2024)  
+  <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - Spring 2024) -- **also founder & organizer**  
   <!-- Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://inclusion.cs.umd.edu/programs#mentoring">?</a>]</sup> (Fall 2020) -->
   <a target="_blank" href="https://inclusion.cs.umd.edu/programs#mentoring">Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program</a> (Fall 2020)
 

@@ -70,3 +70,5 @@ There's no such thing as a free lunch, though, and these advantages come at the 
 # Other considerations
 
 This note only discusses the collateral/rewards aspects of vanilla optimistic rollups vs. naysayer proofs. Another direction to explore is what effect the naysayer paradigm has on the *length* of the optimistic challenge period, which in vanilla rollups is generally set to [7 days](https://kelvinfichter.com/pages/thoughts/challenge-periods/) and causes a significant usability burden (this is one of the main criticisms of optimistic rollups).
+
+Edit: [More discussion recently](https://ethresear.ch/t/optimistic-rollups-the-challenge-period-and-strong-censorship-attacks/21721) on the 7-day challenge period.
