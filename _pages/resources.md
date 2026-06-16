@@ -26,15 +26,15 @@ Hoping to do for Prelims sections what [CryptoBib](https://cryptobib.di.ens.fr/)
 
 ### Reading List
 
-Here are some articles/blog posts I particularly enjoyed/found useful. I hope they may give you some new insights as well:
+Here are some articles/blog posts I particularly enjoyed:
 - [Paper Pitfalls: Lessons From Reviewing](https://www.cs.umd.edu/~kaptchuk/blog/post/reviewing-reflections.html) by Gabe Kaptchuk
 - [Is Telegram really an encrypted messaging app?](https://blog.cryptographyengineering.com/2024/08/25/telegram-is-not-really-an-encrypted-messaging-app/) by Matt Green
 
-### Notion Template
+<!-- ### Notion Template
 
 I use <a target="_blank" href="https://notion.so">Notion</a> to manage a lot of my work, and since I've been asked about my workflow a few times before, I decided to create a template of my setup and share it here: [demo template](https://nglaeser.notion.site/Kanban-Notion-template-demo-fb5828df683d49f18ad7cc29535b360c?pvs=4) ([clean version](https://nglaeser.notion.site/Kanban-Notion-template-clean-209e21b3c3044a46ae3be04ca8fc06e2?pvs=4)).
 
-_Note: I'm in the process of moving over to Obsidian, and hopefully I'll eventually finish and update this page. (If you have any tips on Obsidian workflows, please share! :slightly_smiling_face:)_
+_Note: I'm in the process of moving over to Obsidian, and hopefully I'll eventually finish and update this page. (If you have any tips on Obsidian workflows, please share! :slightly_smiling_face:)_ -->
 
 ### Other
 

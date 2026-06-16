@@ -1,10 +1,10 @@
 pubs: [
   {
-    year: "In preparation",
+    year: "2026",
     title: "How to Back Up High-Value Secret Keys",
     authors: [Sanjam Garg, <span class="me">Noemi Glaeser</span>, Abhishek Jain, Michael Lodder, Hart Montgomery],
     alpha: true,
-    venues: ,
+    venues: ["ACM CCS 2026"],
     eprint: ,
     doi: ,
     tags: ["threshold signatures", "cryptocurrencies", "UC", "new primitive"],
@@ -16,10 +16,9 @@ pubs: [
     alpha: false,
     venues: ["USENIX Security 2025"],
     # pdf: "https://rdeviti.netlify.app/publication/content/publication/de-viti-2022-covault/covault.pdf",
-    pdf: "https://www.usenix.org/conference/usenixsecurity25/presentation/de-viti",
     eprint: ,
     arxiv: "2208.03784",
-    doi: ,
+    doi: "https://www.usenix.org/conference/usenixsecurity25/presentation/de-viti",
     tags: ["systems", "MPC"],
   },
   {
