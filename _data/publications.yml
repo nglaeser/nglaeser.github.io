@@ -5,9 +5,9 @@ pubs: [
     authors: [Sanjam Garg, <span class="me">Noemi Glaeser</span>, Abhishek Jain, Michael Lodder, Hart Montgomery],
     alpha: true,
     venues: ["ACM CCS 2026"],
-    eprint: ,
-    doi: ,
-    tags: ["threshold signatures", "cryptocurrencies", "UC", "new primitive"],
+    eprint: "2026/1565",
+    doi: "10.1145/3830454.3832658",
+    tags: ["threshold signatures", "backups", "UC"],
   },
   {
     year: "2025",
