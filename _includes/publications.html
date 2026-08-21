@@ -9,7 +9,7 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
   {% include archive-single.html %}
 {% endfor %} -->
 
-*\* indicates alphabetical author order.*
+_Like mathematics, in cryptography **authors are listed in [alphabetical order by default](https://www.ams.org/learning-careers/leaders/CultureStatement04.pdf)** except where indicated by an asterisk._
 
 <style>
     .me {
@@ -44,7 +44,7 @@ You can also find my papers on <a target="_blank" href="{{site.author.googlescho
     {% for pub in group.items %}
     <li id="{{ pub.title }}">
         <span class="title">{{ pub.title }}</span><br />
-        {% if pub.alpha %}*{% endif %}{{ pub.authors | join: ", " }}{% if pub.authnote %} <span
+        {% if pub.alpha %}{% else %}*{% endif %}{{ pub.authors | join: ", " }}{% if pub.authnote %} <span
             style="font-style: italic">({{pub.authnote}})</span>{% endif
         %}<br />
         {% if pub.venues %}

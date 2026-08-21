@@ -71,12 +71,13 @@ Service and Leadership
   <!-- - 2027: 
   <a target="_blank" href="http://ifca.ai/">Financial Crypto</a> -->
   2026: 
-  <a target="_blank" href="http://ifca.ai/">FC</a>  
+  <a target="_blank" href="https://ifca.ai/">FC</a>,
+  <a target="_blank" href="https://defiwork.shop/">DeFi</a>  
   2025: 
-  <a target="_blank" href="http://ifca.ai/">FC</a>  
+  <a target="_blank" href="https://ifca.ai/">FC</a>  
   2024: 
   <a target="_blank" href="https://isc24.cs.gmu.edu/">ISC</a>, 
-  <a target="_blank" href="http://ifca.ai/">FC</a>  
+  <a target="_blank" href="https://ifca.ai/">FC</a>  
   2023: 
   <a target="_blank" href="https://sp2024.ieee-security.org/cfposters.html">S&P Posters</a>, 
   <a target="_blank" href="https://www.ndss-symposium.org/ndss2023/attend/student-support/">NDSS Student Support</a>
