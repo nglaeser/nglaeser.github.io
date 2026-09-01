@@ -14,8 +14,8 @@ _Like mathematics, in cryptography **authors are listed in [alphabetical order b
 <style>
     .me {
         /* font-weight: bold; */
-        font-style: italic;
-        /* text-decoration: underline; */
+        /* font-style: italic; */
+        text-decoration: underline;
     }
 
     .title {
@@ -63,7 +63,7 @@ _Like mathematics, in cryptography **authors are listed in [alphabetical order b
         [<a class="artifact-link" target="_blank" href="https://arxiv.org/abs/{{ pub.arxiv }}">arxiv</a>]
         {% endif %}
         {% if pub.doi %}
-        [<a class="artifact-link" target="_blank" href="https://doi.org/{{ pub.doi }}">proceedings</a>]
+        [<a class="artifact-link" target="_blank" href="https://doi.org/{{ pub.doi }}">doi</a>]
         {% endif %}
         {% if pub.talk %}
         [<a class="artifact-link" target="_blank" href="{{ pub.talk }}">talk</a>]

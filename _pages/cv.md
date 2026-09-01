@@ -67,52 +67,57 @@ Experience
   
 Service and Leadership
 ------
-* **Program Committee**  
-  <!-- - 2027: 
-  <a target="_blank" href="http://ifca.ai/">Financial Crypto</a> -->
-  2026: 
-  <a target="_blank" href="https://ifca.ai/">FC</a>,
-  <a target="_blank" href="https://defiwork.shop/">DeFi</a>  
-  2025: 
-  <a target="_blank" href="https://ifca.ai/">FC</a>  
-  2024: 
-  <a target="_blank" href="https://isc24.cs.gmu.edu/">ISC</a>, 
-  <a target="_blank" href="https://ifca.ai/">FC</a>  
-  2023: 
-  <a target="_blank" href="https://sp2024.ieee-security.org/cfposters.html">S&P Posters</a>, 
-  <a target="_blank" href="https://www.ndss-symposium.org/ndss2023/attend/student-support/">NDSS Student Support</a>
 
-* **External Reviewer**  
-  <a target="_blank" href="https://eurocrypt.iacr.org/">EUROCRYPT</a> (2026), 
-  <a target="_blank" href="https://2024.cansconference.org/">CANS</a> (2024), 
-  <a target="_blank" href="https://www.acisp24.com/">ACISP</a> (2024), 
-  <a target="_blank" href="https://sp2024.ieee-security.org/past.html">S&P</a> (2024), 
-  <a target="_blank" href="https://crypto.iacr.org/">CRYPTO</a> (2023), 
-  <a target="_blank" href="https://www.sigsac.org/ccs.html">CCS</a> (2023, 2020), 
-  <a target="_blank" href="https://petsymposium.org/">PETS</a> (2023.3, 2022.4, 2022.1), 
-  <a target="_blank" href="https://pkc.iacr.org/">PKC</a> (2022)
+**Program Committees**  
+2027: 
+<a target="_blank" href="http://ifca.ai/">FC</a>,
+<a target="_blank" href="https://www.esat.kuleuven.be/cosic/events/ct-rsa-2027/">CT-RSAC</a>  
+2026: 
+<a target="_blank" href="https://ifca.ai/">FC</a>,
+<a target="_blank" href="https://defiwork.shop/">DeFi</a>  
+2025: 
+<a target="_blank" href="https://ifca.ai/">FC</a>  
+2024: 
+<a target="_blank" href="https://isc24.cs.gmu.edu/">ISC</a>, 
+<a target="_blank" href="https://ifca.ai/">FC</a>  
+2023: 
+<a target="_blank" href="https://sp2024.ieee-security.org/cfposters.html">S&P Posters</a>, 
+<a target="_blank" href="https://www.ndss-symposium.org/ndss2023/attend/student-support/">NDSS Student Support</a>
+
+**External Reviewer**  
+<a target="_blank" href="https://eurocrypt.iacr.org/">EUROCRYPT</a> (2026), 
+<a target="_blank" href="https://2024.cansconference.org/">CANS</a> (2024), 
+<a target="_blank" href="https://www.acisp24.com/">ACISP</a> (2024), 
+<a target="_blank" href="https://sp2024.ieee-security.org/past.html">S&P</a> (2024), 
+<a target="_blank" href="https://crypto.iacr.org/">CRYPTO</a> (2023), 
+<a target="_blank" href="https://www.sigsac.org/ccs.html">CCS</a> (2023, 2020), 
+<a target="_blank" href="https://petsymposium.org/">PETS</a> (2023.3, 2022.4, 2022.1), 
+<a target="_blank" href="https://pkc.iacr.org/">PKC</a> (2022)
   
-<!-- * **Organizer**   -->
-   <!-- UMD CS Graduate Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">?</a>]</sup> (Fall 2021 - present) -->
-  <!-- <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - Fall 2024)   -->
+<!-- ### Organizer -->
+  <!-- UMD CS Graduate Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">?</a>]</sup> (Fall 2021 - present) -->
+<!-- <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - Fall 2024)   -->
 
-* **Mentorship**  
-  <!-- UMD CS Graduate Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">?</a>]</sup> (Fall 2021 - present)   -->
-  <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - Spring 2024) -- **also founder & organizer**  
-  <!-- Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://inclusion.cs.umd.edu/programs#mentoring">?</a>]</sup> (Fall 2020) -->
-  <a target="_blank" href="https://inclusion.cs.umd.edu/programs#mentoring">Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program</a> (Fall 2020)
+<!-- **Thesis Supervision**
+-  -->
 
-<!-- * **Packet Writer**   -->
-  <!-- UMD Girls Talk Math<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gtm.math.umd.edu/virtualcamp2021.html">?</a>]</sup> (Summer 2021 & Summer 2022) -->
-  <!-- <a target="_blank" href="http://gtm.math.umd.edu">UMD Girls Talk Math</a> (Summer 2021 & Summer 2022)
-  [<a class="artifact-link" target="_blank" href="https://github.com/nglaeser/gtm2021/blob/main/packet/main.pdf">pdf</a>] -->
+**Mentorship**
+<!-- - UMD CS Graduate Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">?</a>]</sup> (Fall 2021 - present)   -->
+- <a target="_blank" href="https://gradco.cs.umd.edu/peer-mentoring/">UMD CS Graduate Peer Mentoring Program</a> (Fall 2021 - Spring 2024) -- **also founder & organizer**  
+<!-- - Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://inclusion.cs.umd.edu/programs#mentoring">?</a>]</sup> (Fall 2020) -->
+- <a target="_blank" href="https://inclusion.cs.umd.edu/programs#mentoring">Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program</a> (Fall 2020)
 
-<!-- * **Organizer**  
-  UMD Cryptography Reading Group (Fall 2020 - Spring 2021) -->
+<!-- **Packet Writer**   -->
+<!-- UMD Girls Talk Math<sup>[<a title="What's that?" class="artifact-link" target="_blank" href="https://gtm.math.umd.edu/virtualcamp2021.html">?</a>]</sup> (Summer 2021 & Summer 2022) -->
+<!-- <a target="_blank" href="http://gtm.math.umd.edu">UMD Girls Talk Math</a> (Summer 2021 & Summer 2022)
+[<a class="artifact-link" target="_blank" href="https://github.com/nglaeser/gtm2021/blob/main/packet/main.pdf">pdf</a>] -->
+
+<!-- **Organizer**  
+UMD Cryptography Reading Group (Fall 2020 - Spring 2021) -->
 
 Technical Skills
 ------
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nglaeser&layout=compact&langs_count=10&hide=jupyter notebook,less,ruby,cmake,c,tex&exclude_repo=CybersecSite,Notes,nglaeser.github.io)](https://github.com/nglaeser)
+[![Top Languages on GitHub](https://github-stats-extended.vercel.app/api/top-langs/?username=nglaeser&layout=compact&langs_count=10&hide=jupyter notebook,less,ruby,cmake,c,tex&exclude_repo=CybersecSite,Notes,nglaeser.github.io)](https://github.com/nglaeser)
 
 <!-- [![GitHub stats](https://github-readme-stats.vercel.app/api/?username=nglaeser&show_icons=true)](https://github.com/nglaeser) -->
 

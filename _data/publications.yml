@@ -1,12 +1,24 @@
 pubs: [
   {
     year: "2026",
+    title: "Neon-HTLC: Collateral-Free HTLCs with Logarithmic Timeout",
+    authors: [Sebastian Faust, <span class="me">Noemi Glaeser</span>, Marius Hagemann, Ziyan Qu],
+    alpha: true,
+    venues: ["ACM CCS 2026"],
+    # eprint: ,
+    # doi: ,
+    # github: ,
+    tags: ["Bitcoin", "HTLC", "bribery attacks", "mechanism design"],
+  },
+  {
+    year: "2026",
     title: "How to Back Up High-Value Secret Keys",
     authors: [Sanjam Garg, <span class="me">Noemi Glaeser</span>, Abhishek Jain, Michael Lodder, Hart Montgomery],
     alpha: true,
     venues: ["ACM CCS 2026"],
     eprint: "2026/1565",
     doi: "10.1145/3830454.3832658",
+    github: "LF-Decentralized-Trust-labs/agora-key-share-proofs",
     tags: ["threshold signatures", "backups", "UC"],
   },
   {
