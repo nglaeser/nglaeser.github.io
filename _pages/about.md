@@ -30,10 +30,11 @@ My first name is Italian. For English speakers, a good approximation for how to 
 
 News
 ---
-- **2026-06-06:** Our paper on [How to Back Up High-Value Secret Keys](./publications.md#How to Back Up High-Value Secret Keys) has been accepted to [CCS 2026](https://www.sigsac.org/ccs/CCS2026/)!
-- **2026-01-15:** I started as a postdoc in the [Applied Cryptography Group](https://www.informatik.tu-darmstadt.de/cac/cac/index.en.jsp) at TU Darmstadt.
+- **2026-09-01:** I will have two papers at [CCS 2026](https://www.sigsac.org/ccs/CCS2026/)! [How to Back Up High-Value Secret Keys](./publications.md#How to Back Up High-Value Secret Keys) and [Neon-HTLC: Collateral-Free HTLCs with Logarithmic Timeout](./publications.md#Neon-HTLC: Collateral-Free HTLCs with Logarithmic Timeout)
+<!-- - **2026-06-06:** Our paper on [How to Back Up High-Value Secret Keys](./publications.md#How to Back Up High-Value Secret Keys) has been accepted to [CCS 2026](https://www.sigsac.org/ccs/CCS2026/)! -->
+- **2026-01-15:** I started a postdoc in the [Applied Cryptography Group](https://www.informatik.tu-darmstadt.de/cac/cac/index.en.jsp) at TU Darmstadt.
 <!-- - **2025-09-15:** I am on the program committee for [FC 2026](https://fc26.ifca.ai/index.html) -- please consider submitting your relevant work! The deadline has been extended to September 20, 2025. -->
-- **2025-01-28:** In writing my dissertation, I significantly reworked the formalism of [naysayer proofs](./publications.md#Naysayer proofs) and clarified details in our main theorem and example constructions. The [eprint version](https://eprint.iacr.org/2023/1472) has now been updated with these improvements! Go check it out :)
+<!-- - **2025-01-28:** In writing my dissertation, I significantly reworked the formalism of [naysayer proofs](./publications.md#Naysayer proofs) and clarified details in our main theorem and example constructions. The [eprint version](https://eprint.iacr.org/2023/1472) has now been updated with these improvements! Go check it out :) -->
 <!-- - **2024-11-22:** I am currently looking for applied research positions in industry in cryptographic protocol design and related areas. Please see [my CV](./cv.md) and reach out if you think I may be a good fit! -->
 <!-- - **2024-10-28:** I succesfully defended my dissertation, entitled ["Practical Cryptography for Blockchains: Secure Protocols with Minimal Trust"](../files/diss.pdf)! -->
 <!-- - **2024-10-26:** My dissertation defense will be this Monday, October 28, at 2pm EDT! Please reach out for details if you are interested in attending :) -->
